@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl 'https://citizen.com/api/incident/trending?lowerLatitude=40.52143461173924&lowerLongitude=-74.55314228204315&upperLatitude=40.93193236690766&upperLongitude=-73.3788577179576&fullResponse=true&limit=50' | jq . > incidents.json
+        curl 'https://citizen.com/api/incident/trending?lowerLatitude=44.779284867425446&lowerLongitude=-94.07216505086762&upperLatitude=45.16623243507959&upperLongitude=-92.45628094913246&fullResponse=true&limit=50' | jq . > incidents.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
