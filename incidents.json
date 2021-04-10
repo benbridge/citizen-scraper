@@ -1,44 +1,65 @@
 {
   "results": [
     {
-      "address": "S 5th Ave & S 10th St, Minneapolis, Minnesota, 55404",
+      "address": "S 6th St & S Marquette Ave, Minneapolis, Minnesota, 55402",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1618047303000
+        "deadline": 1618049277000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1618046103000,
-      "hasVod": false,
-      "key": "-MXv32MC4o_ag8H1mC0O",
+      "cs": 1618048077000,
+      "hasVod": true,
+      "key": "-MXvAZkH095htDOFimsw",
       "level": 0,
-      "location": "S 5th Ave & S 10th St",
-      "latitude": 44.97112004783523,
-      "longitude": -93.26792991406654,
-      "neighborhood": "Elliot Park, Minneapolis",
-      "raw": "Police Activity at S 5th Ave & S 10th St, Minneapolis, Minnesota, 55404",
+      "liveStreamers": {
+        "b36fb918fc04c9dc2a58": {
+          "cs": 1618047965000,
+          "ts": 1618048125000,
+          "username": "SpencerSKnutson",
+          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-green-dark-thumb.png",
+          "videoStreamId": "05fda5de-403e-45b9-940e-090335206fce",
+          "hlsDone": true
+        }
+      },
+      "location": "S 6th St & S Marquette Ave",
+      "latitude": 44.97727005974264,
+      "longitude": -93.27009990497963,
+      "neighborhood": "Downtown West, Minneapolis",
+      "raw": "Police Activity at S 6th St & S Marquette Ave, Minneapolis, Minnesota, 55402",
       "ll": [
-        44.97112004783523,
-        -93.26792991406654
+        44.97727005974264,
+        -93.27009990497963
       ],
-      "rawLocation": "S 5th Ave & S 10th St, Minneapolis, Minnesota, 55404",
+      "rawLocation": "S 6th St & S Marquette Ave, Minneapolis, Minnesota, 55402",
       "title": "Police Activity",
-      "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1618046105000,
+      "transcriber": "d912ba8037edab003d0e",
+      "ts": 1618048076000,
+      "verticalThumbnail": "https://storage.googleapis.com/citizen-stream-capture/05fda5de-403e-45b9-940e-090335206fce_0004.jpg",
+      "horizontalThumbnail": "https://storage.googleapis.com/citizen-stream-capture/05fda5de-403e-45b9-940e-090335206fce_0004-crop.jpg",
+      "videoPreview": "https://streaming-cdn.sp0n.io/mediacache/_definst_/mp4:amazons3/media.sp0n.com/videos/05fda5de-403e-45b9-940e-090335206fce.mp4/playlist.m3u8?wowzaplayduration=10000&wowzaplaystart=20000",
+      "featuredStream": {
+        "image": "https://storage.googleapis.com/citizen-stream-capture/05fda5de-403e-45b9-940e-090335206fce_0004.jpg"
+      },
+      "preferredStream": {
+        "image": "https://storage.googleapis.com/citizen-stream-capture/05fda5de-403e-45b9-940e-090335206fce_0004.jpg",
+        "videoStreamId": "05fda5de-403e-45b9-940e-090335206fce"
+      },
       "police": "MPLS PD 1",
+      "shareImageLive": "https://storage.googleapis.com/citizen-stream-capture/05fda5de-403e-45b9-940e-090335206fce_0004.jpg",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MXv32MC4o_ag8H1mC0O.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MXvAZkH095htDOFimsw.png",
       "updates": {
-        "-MXv31rN3L3rxN-OCMUk": {
-          "text": "Incident reported at S 5th Ave & S 10th St.",
-          "ts": 1618046102999,
-          "type": "ROOT",
-          "displayLocation": "S 5th Ave & S 10th St"
-        },
-        "-MXv32MQclnI4tUr6AAK": {
-          "text": "Police are responding to a person who may be in need of assistance.",
-          "ts": 1618046103000,
+        "-MXvAZk_kWzSqB_WKiX5": {
+          "text": "Citizen user video shows a large police presence outside of Rand Tower.",
+          "ts": 1618048077000,
           "type": "TEXT",
-          "displayLocation": "S 5th Ave & S 10th St"
+          "displayLocation": "S 6th St & S Marquette Ave"
+        },
+        "-MXvAZn76SH7ggw9p-Wr": {
+          "text": "Incident reported at S 6th St & S Marquette Ave.",
+          "ts": 1618048076999,
+          "type": "ROOT",
+          "displayLocation": "S 6th St & S Marquette Ave"
         }
       },
       "nearbyThreshold": 400,
@@ -48,12 +69,12 @@
       "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
       "facepile": null,
       "severity": "yellow",
-      "source": "911",
+      "source": "community",
       "chatBlocked": false,
       "closed": false,
       "modules": [
         {
-          "id": "e45898dc-8aed-420e-a148-e32456a7aef2",
+          "id": "9a41be04-7f59-4867-b8ca-387993ff2946",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -63,7 +84,7 @@
           }
         },
         {
-          "id": "ed34d54a-8c60-4c83-a06f-f46d59bb9a69",
+          "id": "15c7a7a1-8c18-4608-b631-6d55b2888d64",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -78,90 +99,6 @@
       "displayStyle": "tray",
       "categories": [
         "Police Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "2701 Bryant Ave N, Minneapolis, Minnesota, 55411",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1618046217000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1618044958000,
-      "hasVod": false,
-      "key": "-MXuzfbqvKp8NUqYrQYc",
-      "level": 1,
-      "location": "2701 Bryant Ave N",
-      "latitude": 45.007864006332994,
-      "longitude": -93.29088400736958,
-      "neighborhood": "Minneapolis",
-      "raw": "Report of Shots Fired at 2701 Bryant Ave N, Minneapolis, Minnesota, 55411",
-      "ll": [
-        45.007864006332994,
-        -93.29088400736958
-      ],
-      "rawLocation": "2701 Bryant Ave N, Minneapolis, Minnesota, 55411",
-      "title": "Report of Shots Fired",
-      "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1618045018000,
-      "police": "MPLS PD 4",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MXuzfbqvKp8NUqYrQYc.png",
-      "updates": {
-        "-MXuzfJk8ufNxXV2Iyj_": {
-          "text": "Incident reported at 2701 Bryant Ave N.",
-          "ts": 1618044957999,
-          "type": "ROOT",
-          "displayLocation": "2701 Bryant Ave N"
-        },
-        "-MXuzfc4A45w0putpiG6": {
-          "text": "Police have received an unconfirmed report of shots fired in the area.",
-          "ts": 1618044958000,
-          "type": "TEXT",
-          "displayLocation": "2701 Bryant Ave N"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "acbd418f-0177-4830-92e5-b2c50a2f375c",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "e4303f45-f558-4d95-af8a-719cfbfa06f5",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -337,44 +274,44 @@
       }
     },
     {
-      "address": "500 E 15th St, Minneapolis, Minnesota, 55404",
+      "address": "1169 Westminster St, Saint Paul, Minnesota, 55130",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1618031259000
+        "deadline": 1618041355000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1618030059000,
+      "cs": 1618039972000,
       "hasVod": false,
-      "key": "-MXu5qJ2XEwD9YTN41RP",
+      "key": "-MXugeRkc7QB8DDzNfg9",
       "level": 1,
-      "location": "500 E 15th St",
-      "latitude": 44.96832099508882,
-      "longitude": -93.26872401557338,
-      "neighborhood": "Minneapolis",
-      "raw": "Report of Shots Fired at 500 E 15th St, Minneapolis, Minnesota, 55404",
+      "location": "1169 Westminster St",
+      "latitude": 44.97634211685335,
+      "longitude": -93.08627653687631,
+      "neighborhood": "Payne-Phalen, Saint Paul",
+      "raw": "Report of Armed Assault at 1169 Westminster St, Saint Paul, Minnesota, 55130",
       "ll": [
-        44.96832099508882,
-        -93.26872401557338
+        44.97634211685335,
+        -93.08627653687631
       ],
-      "rawLocation": "500 E 15th St, Minneapolis, Minnesota, 55404",
-      "title": "Report of Shots Fired",
+      "rawLocation": "1169 Westminster St, Saint Paul, Minnesota, 55130",
+      "title": "Report of Armed Assault",
       "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1618030060000,
-      "police": "MPLS PD 1",
+      "ts": 1618040156000,
+      "police": "SPPD Eastern",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MXu5qJ2XEwD9YTN41RP.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MXugeRkc7QB8DDzNfg9.png",
       "updates": {
-        "-MXu5prs01B1X-a3CaFs": {
-          "text": "Incident reported at 500 E 15th St.",
-          "ts": 1618030058999,
+        "-MXuge1Vc2-FXGwIc8X2": {
+          "text": "Incident reported at 1169 Westminster St.",
+          "ts": 1618039971999,
           "type": "ROOT",
-          "displayLocation": "500 E 15th St"
+          "displayLocation": "1169 Westminster St"
         },
-        "-MXu5qJGK0QfAa1NsQSE": {
-          "text": "Police have received an unconfirmed report of shots fired in the area.",
-          "ts": 1618030059000,
+        "-MXugeRyZSBx2Lkb3dbc": {
+          "text": "Police have received a report of a woman assaulted with a ceramic doll head.",
+          "ts": 1618039972000,
           "type": "TEXT",
-          "displayLocation": "500 E 15th St"
+          "displayLocation": "1169 Westminster St"
         }
       },
       "nearbyThreshold": 400,
@@ -389,7 +326,7 @@
       "closed": false,
       "modules": [
         {
-          "id": "4e071303-ce04-420f-a680-a2bcb0ba41ce",
+          "id": "197cac6c-0fe6-40ef-a471-b4b7971abc03",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -399,7 +336,7 @@
           }
         },
         {
-          "id": "31ea3573-d3d6-4287-8d02-ebf3ad334b0d",
+          "id": "bafaf95b-061f-4a50-b9e9-dae9b121ab9b",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -413,7 +350,194 @@
       "isGoodNews": false,
       "displayStyle": "tray",
       "categories": [
-        "Gun Related"
+        "Weapon"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "1401 Portland Ave, Minneapolis, Minnesota, 55404",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1618037363000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1618036163000,
+      "hasVod": false,
+      "key": "-MXuT7TSWEDlO9UCuxgh",
+      "level": 1,
+      "location": "1401 Portland Ave",
+      "latitude": 44.96866700005191,
+      "longitude": -93.26708904153998,
+      "neighborhood": "Minneapolis",
+      "raw": "Woman Assaulted at 1401 Portland Ave, Minneapolis, Minnesota, 55404",
+      "ll": [
+        44.96866700005191,
+        -93.26708904153998
+      ],
+      "rawLocation": "1401 Portland Ave, Minneapolis, Minnesota, 55404",
+      "title": "Woman Assaulted",
+      "transcriber": "8a1f1ff1865a6ca3916c",
+      "ts": 1618036164000,
+      "police": "MPLS PD 1",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MXuT7TSWEDlO9UCuxgh.png",
+      "updates": {
+        "-MXuT75sUX4ufYTNOXCU": {
+          "text": "Incident reported at 1401 Portland Ave.",
+          "ts": 1618036162999,
+          "type": "ROOT",
+          "displayLocation": "1401 Portland Ave"
+        },
+        "-MXuT7The6CLg7tCdQHz": {
+          "text": "Police have received a report of a woman assaulted.",
+          "ts": 1618036163000,
+          "type": "TEXT",
+          "displayLocation": "1401 Portland Ave",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-2958/1618036055000-408bead6-0ef5-40ba-b146-f63ce2efd612.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-2958/1618036055000-408bead6-0ef5-40ba-b146-f63ce2efd612-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "8157276d-b9f7-4e2e-b5d5-1abee39b1ef6",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "e1b0958e-ffdd-4451-9bc4-c25bb1de2b2d",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Assault / Fight"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "695 Summer St NE, Minneapolis, Minnesota, 55413",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1618031219000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1618029878000,
+      "hasVod": false,
+      "key": "-MXu592pqp-pSUEdTaqv",
+      "level": 1,
+      "location": "695 Summer St NE",
+      "latitude": 44.99704598681865,
+      "longitude": -93.25268800987521,
+      "neighborhood": "Minneapolis",
+      "raw": "Report of Outside Fire at 695 Summer St NE, Minneapolis, Minnesota, 55413",
+      "ll": [
+        44.99704598681865,
+        -93.25268800987521
+      ],
+      "rawLocation": "695 Summer St NE, Minneapolis, Minnesota, 55413",
+      "title": "Report of Outside Fire",
+      "transcriber": "8a1f1ff1865a6ca3916c",
+      "ts": 1618030020000,
+      "police": "MPLS PD 2",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MXu592pqp-pSUEdTaqv.png",
+      "updates": {
+        "-MXu58fkXp9-5MaU_v0L": {
+          "text": "Incident reported at 695 Summer St NE.",
+          "ts": 1618029877999,
+          "type": "ROOT",
+          "displayLocation": "695 Summer St NE"
+        },
+        "-MXu5935JfxL2d3LtZ-X": {
+          "text": "Firefighters are responding to a report of an outside fire.",
+          "ts": 1618029878000,
+          "type": "TEXT",
+          "displayLocation": "695 Summer St NE",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-3016/1618029358000-ad66cc84-238b-4004-9046-1d0cd2831edb.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-3016/1618029358000-ad66cc84-238b-4004-9046-1d0cd2831edb-spectrogram.jpg"
+            },
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-3016/1618029359000-13735419-838f-43bd-8330-d9bad5bfb73a.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-3016/1618029359000-13735419-838f-43bd-8330-d9bad5bfb73a-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "c4c3687c-7c70-42b6-a2fe-edf5d09e02ba",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "b25252b6-0c63-4dc1-b439-afa4e8ef9ec9",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Fire"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -5109,90 +5233,6 @@
       "displayStyle": "tray",
       "categories": [
         "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "S Penn Ave & 54th St W, Minneapolis, Minnesota, 55419",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1617833365000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1617832165000,
-      "hasVod": false,
-      "key": "-MXiIweKsgVj2bassStI",
-      "level": 0,
-      "location": "S Penn Ave & 54th St W",
-      "latitude": 44.90512006213194,
-      "longitude": -93.30863989578032,
-      "neighborhood": "Armatage, Minneapolis",
-      "raw": "Person Indecently Exposed at S Penn Ave & 54th St W, Minneapolis, Minnesota, 55419",
-      "ll": [
-        44.90512006213194,
-        -93.30863989578032
-      ],
-      "rawLocation": "S Penn Ave & 54th St W, Minneapolis, Minnesota, 55419",
-      "title": "Person Indecently Exposed",
-      "transcriber": "c76be39e1483b9116b14",
-      "ts": 1617832168000,
-      "police": "MPLS PD 5",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MXiIweKsgVj2bassStI.png",
-      "updates": {
-        "-MXiIvu7tFdekn6cmKi0": {
-          "text": "Incident reported at S Penn Ave & 54th St W.",
-          "ts": 1617832164999,
-          "type": "ROOT",
-          "displayLocation": "S Penn Ave & 54th St W"
-        },
-        "-MXiIwedNKPrCigPdibA": {
-          "text": "Police are responding to a report of a person who is said to be indecently exposed in the vicinity.",
-          "ts": 1617832165000,
-          "type": "TEXT",
-          "displayLocation": "S Penn Ave & 54th St W"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "5f860b97-2ce1-4f80-a246-6adababc03ca",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "c000c632-fc47-477d-bddc-318cd73f0753",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Harassment"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
