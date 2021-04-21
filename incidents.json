@@ -1,6 +1,90 @@
 {
   "results": [
     {
+      "address": "Humboldt Ave & Elizabeth St W, Saint Paul, Minnesota, 55107",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1618994103000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1618992903000,
+      "hasVod": false,
+      "key": "-MYnUnM7QffLC0htEDoY",
+      "level": 0,
+      "location": "Humboldt Ave & Elizabeth St W",
+      "latitude": 44.927150050609896,
+      "longitude": -93.08508992804451,
+      "neighborhood": "Riverview, Saint Paul",
+      "raw": "Police Activity at Humboldt Ave & Elizabeth St W, Saint Paul, Minnesota, 55107",
+      "ll": [
+        44.927150050609896,
+        -93.08508992804451
+      ],
+      "rawLocation": "Humboldt Ave & Elizabeth St W, Saint Paul, Minnesota, 55107",
+      "title": "Police Activity",
+      "transcriber": "80e591f2f572c7da55ad",
+      "ts": 1618992903000,
+      "police": "SPPD Central",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MYnUnM7QffLC0htEDoY.png",
+      "updates": {
+        "-MYnUnCNnRE02e-ivXg7": {
+          "text": "Incident reported at Humboldt Ave & Elizabeth St W.",
+          "ts": 1618992902999,
+          "type": "ROOT",
+          "displayLocation": "Humboldt Ave & Elizabeth St W"
+        },
+        "-MYnUnMOS6k9j3jKC3sM": {
+          "text": "Police are responding to a report of a person who may be in need of assistance.",
+          "ts": 1618992903000,
+          "type": "TEXT",
+          "displayLocation": "Humboldt Ave & Elizabeth St W"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "4964481a-fa5b-4c35-bd76-bfdcf75ff655",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "476f8ec0-06bb-41ab-99a9-cc262d9df16c",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Police Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
       "address": "2260 Princeton Ave, Saint Paul, Minnesota, 55105",
       "broadcastRules": {
         "distanceMeters": 805,
@@ -168,201 +252,6 @@
       "displayStyle": "tray",
       "categories": [
         "Police Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "255 Plato Blvd, St Paul, MN 55107, USA",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1618986534000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1618985334000,
-      "hasVod": false,
-      "key": "-MYn1vCTYK1-F1liEsbz",
-      "level": 0,
-      "location": "255 Plato Blvd",
-      "latitude": 44.93976,
-      "longitude": -93.07818,
-      "helicopter": {
-        "ident": "N119SP",
-        "heading": 156,
-        "arrivalTime": 0
-      },
-      "neighborhood": "",
-      "raw": "Active Police Helicopter (N119SP) at 255 Plato Blvd, St Paul, MN 55107, USA",
-      "ll": [
-        44.93976,
-        -93.07818
-      ],
-      "rawLocation": "255 Plato Blvd, St Paul, MN 55107, USA",
-      "title": "Active Police Helicopter (N119SP)",
-      "transcriber": "bot",
-      "ts": 1618985333000,
-      "police": "SPPD Central",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MYn1vCTYK1-F1liEsbz.png",
-      "updates": {
-        "-MYn1vDmVs_nKSbZtp8F": {
-          "text": "N119SP departed STP at 01:08AM CDT",
-          "ts": 1618985334000,
-          "type": "TEXT",
-          "displayLocation": "255 Plato Blvd"
-        },
-        "-MYn1vIkOFK5gckvsIaS": {
-          "text": "Incident reported at 255 Plato Blvd.",
-          "ts": 1618985333999,
-          "type": "ROOT",
-          "displayLocation": "255 Plato Blvd"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "5d4b958f-2c8c-45d9-9d2d-39071b4fd3d1",
-          "type": "web",
-          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/flight_data/index.html?incidentId=-MYn1vCTYK1-F1liEsbz&env=PROD",
-          "title": "FLIGHT DATA",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "162cbd62-1e97-4de8-afbd-f473a3301dbe",
-          "type": "web",
-          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/helicopter_info/index.html?incidentId=-MYn1vCTYK1-F1liEsbz&env=PROD",
-          "title": "HELICOPTER INFORMATION",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "7c0b692f-9095-43c5-ab48-4a9ca9824d2f",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 2,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "d05ddebf-973e-4624-b2aa-cf4da5d969cb",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 3,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Helicopter"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "2803 Fremont Ave N, Minneapolis, Minnesota, 55411",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1618986499000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1618985299000,
-      "hasVod": false,
-      "key": "-MYn1mwIvXPwUVjpo3AP",
-      "level": 1,
-      "location": "2803 Fremont Ave N",
-      "latitude": 45.00873501180146,
-      "longitude": -93.29581600301704,
-      "neighborhood": "Minneapolis",
-      "raw": "Three Gunshots Detected at 2803 Fremont Ave N, Minneapolis, Minnesota, 55411",
-      "ll": [
-        45.00873501180146,
-        -93.29581600301704
-      ],
-      "rawLocation": "2803 Fremont Ave N, Minneapolis, Minnesota, 55411",
-      "title": "Three Gunshots Detected",
-      "transcriber": "80e591f2f572c7da55ad",
-      "ts": 1618985299000,
-      "police": "MPLS PD 4",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MYn1mwIvXPwUVjpo3AP.png",
-      "updates": {
-        "-MYn1mksVtUUqJbopcUS": {
-          "text": "Incident reported at 2803 Fremont Ave N.",
-          "ts": 1618985298999,
-          "type": "ROOT",
-          "displayLocation": "2803 Fremont Ave N"
-        },
-        "-MYn1mwbMDk5gffNFAMV": {
-          "text": "ShotSpotter technology has detected three possible gunshots in the area. The technology is triggered by loud noises including gunshots, fireworks, and car backfires.",
-          "ts": 1618985299000,
-          "type": "TEXT",
-          "displayLocation": "2803 Fremont Ave N"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "0011152e-d461-4d6a-ae14-2153304f8c6a",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "012f35aa-f204-4b25-aa6c-24d100fc39c9",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -618,44 +507,44 @@
       }
     },
     {
-      "address": "2929 Chicago Ave, Minneapolis, Minnesota, 55407",
+      "address": "E 15th St & Park Ave, Minneapolis, Minnesota, 55404",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1618980147000
+        "deadline": 1618982681000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1618978947000,
+      "cs": 1618981481000,
       "hasVod": false,
-      "key": "-MYmeZ6ajtpj1YdmhKey",
+      "key": "-MYmoDkigKfDSOBufgAh",
       "level": 1,
-      "location": "2929 Chicago Ave",
-      "latitude": 44.94930698301144,
-      "longitude": -93.26074997580645,
-      "neighborhood": "Minneapolis",
-      "raw": "Teenage Boy Assaulted, Robbed at 2929 Chicago Ave, Minneapolis, Minnesota, 55407",
+      "location": "E 15th St & Park Ave",
+      "latitude": 44.96806002453346,
+      "longitude": -93.26509993209741,
+      "neighborhood": "Elliot Park, Minneapolis",
+      "raw": "Ten Gunshots Heard at E 15th St & Park Ave, Minneapolis, Minnesota, 55404",
       "ll": [
-        44.94930698301144,
-        -93.26074997580645
+        44.96806002453346,
+        -93.26509993209741
       ],
-      "rawLocation": "2929 Chicago Ave, Minneapolis, Minnesota, 55407",
-      "title": "Teenage Boy Assaulted, Robbed",
-      "transcriber": "80e591f2f572c7da55ad",
-      "ts": 1618978951000,
-      "police": "MPLS PD 3",
+      "rawLocation": "E 15th St & Park Ave, Minneapolis, Minnesota, 55404",
+      "title": "Ten Gunshots Heard",
+      "transcriber": "220639b278230c064f40",
+      "ts": 1618981481000,
+      "police": "MPLS PD 1",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MYmeZ6ajtpj1YdmhKey.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MYmoDkigKfDSOBufgAh.png",
       "updates": {
-        "-MYmeYysMKi3npzJqfpv": {
-          "text": "Incident reported at 2929 Chicago Ave.",
-          "ts": 1618978946999,
+        "-MYmoDcciWiW7HQtjsA3": {
+          "text": "Incident reported at E 15th St & Park Ave.",
+          "ts": 1618981480999,
           "type": "ROOT",
-          "displayLocation": "2929 Chicago Ave"
+          "displayLocation": "E 15th St & Park Ave"
         },
-        "-MYmeZ6qmhBA8x191oPV": {
-          "text": "Police have received an unconfirmed report of a teenage boy assaulted and robbed.",
-          "ts": 1618978947000,
+        "-MYmoDl2_tGwG6O2N9fA": {
+          "text": "Police have received an unconfirmed report of 10 gunshots heard.",
+          "ts": 1618981481000,
           "type": "TEXT",
-          "displayLocation": "2929 Chicago Ave"
+          "displayLocation": "E 15th St & Park Ave"
         }
       },
       "nearbyThreshold": 400,
@@ -670,7 +559,7 @@
       "closed": false,
       "modules": [
         {
-          "id": "677fe23f-0e17-4b8e-821c-ce637d2fd4f9",
+          "id": "e7fe55aa-2a3f-4e34-93cf-f0f702620e69",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -680,7 +569,7 @@
           }
         },
         {
-          "id": "5a065163-d938-45d7-921a-2d8956940f0d",
+          "id": "bb55ffbc-926b-4fc4-86d0-17a63afb2678",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -694,7 +583,7 @@
       "isGoodNews": false,
       "displayStyle": "tray",
       "categories": [
-        "Robbery / Theft "
+        "Gun Related"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -2056,110 +1945,6 @@
       }
     },
     {
-      "address": "Lexington Pkwy N & Hubbard Ave, Saint Paul, Minnesota, 55104",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1618940387000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1618938966000,
-      "hasVod": false,
-      "key": "-MYkH3DrtrGpCQUnuowt",
-      "level": 1,
-      "location": "Lexington Pkwy N & Hubbard Ave",
-      "latitude": 44.96571003224966,
-      "longitude": -93.14665995219102,
-      "neighborhood": "Hamline-Midway, Saint Paul",
-      "raw": "Vehicle Collision at Lexington Pkwy N & Hubbard Ave, Saint Paul, Minnesota, 55104",
-      "ll": [
-        44.96571003224966,
-        -93.14665995219102
-      ],
-      "rawLocation": "Lexington Pkwy N & Hubbard Ave, Saint Paul, Minnesota, 55104",
-      "title": "Vehicle Collision",
-      "transcriber": "d5f4a5e34f116b8915a7",
-      "ts": 1618939190000,
-      "police": "SPPD Western",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MYkH3DrtrGpCQUnuowt.png",
-      "updates": {
-        "-MYkH1zkOpVew2f6fNKT": {
-          "text": "Incident reported at Lexington Pkwy N & Hubbard Ave.",
-          "ts": 1618938965999,
-          "type": "ROOT",
-          "displayLocation": "Lexington Pkwy N & Hubbard Ave"
-        },
-        "-MYkH3E8FpkDEtMj3EmO": {
-          "text": "Firefighters have received a report of a vehicle collision with injuries.",
-          "ts": 1618938966000,
-          "type": "TEXT",
-          "displayLocation": "Lexington Pkwy N & Hubbard Ave",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-11522/1618938761000-c6baa569-2d0c-48c0-9bf8-89c9bed1febd.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-11522/1618938761000-c6baa569-2d0c-48c0-9bf8-89c9bed1febd-spectrogram.jpg"
-            }
-          ]
-        },
-        "-MYkHto20wYg4xw3ISm1": {
-          "text": "Firefighters advise that police on scene have requested firefighters to disregard calls for backup.",
-          "ts": 1618939187000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-11634/1618938993000-44674511-10d4-4495-94c3-6ab5ed0cccd5.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-11634/1618938993000-44674511-10d4-4495-94c3-6ab5ed0cccd5-spectrogram.jpg"
-            }
-          ]
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "bcbebb4a-328b-492e-b68a-92f56c40be18",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "045d3e73-22be-488e-98d3-edc3ad1a6e6f",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Traffic Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
       "address": "W Lyndale Ave N & Olson Memorial Hwy, Minneapolis, Minnesota, 55405",
       "broadcastRules": {
         "distanceMeters": 805,
@@ -2394,6 +2179,103 @@
       "displayStyle": "tray",
       "categories": [
         "Fire"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "5739 Lyndale Ave S, Minneapolis, Minnesota, 55419",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1618911346000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1618910002000,
+      "hasVod": false,
+      "key": "-MYiYZ-WL_ffut5-CfQL",
+      "level": 1,
+      "location": "5739 Lyndale Ave S",
+      "latitude": 44.898660003626105,
+      "longitude": -93.2877350101656,
+      "neighborhood": "Minneapolis",
+      "raw": "Report of Woman Armed With Hammer at 5739 Lyndale Ave S, Minneapolis, Minnesota, 55419",
+      "ll": [
+        44.898660003626105,
+        -93.2877350101656
+      ],
+      "rawLocation": "5739 Lyndale Ave S, Minneapolis, Minnesota, 55419",
+      "title": "Report of Woman Armed With Hammer",
+      "transcriber": "a7d43196fbf8305be712",
+      "ts": 1618910146000,
+      "police": "MPLS PD 5",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MYiYZ-WL_ffut5-CfQL.png",
+      "updates": {
+        "-MYiYYhFX-RwKMNulWFw": {
+          "text": "Incident reported at 5739 Lyndale Ave S.",
+          "ts": 1618910001999,
+          "type": "ROOT",
+          "displayLocation": "5739 Lyndale Ave S"
+        },
+        "-MYiYZ-p8h1qMIBqCFyH": {
+          "text": "Police have received an unconfirmed report of a woman knocking on a window with a hammer.",
+          "ts": 1618910002000,
+          "type": "TEXT",
+          "displayLocation": "5739 Lyndale Ave S"
+        },
+        "-MYiZ62SxIrEZk3ye5Qg": {
+          "text": "Police have been advised to disregard the report. The suspect is said to have left the scene.",
+          "ts": 1618910146000,
+          "type": "TEXT",
+          "displayLocation": "",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-2954/1618909426000-4363207d-e3d7-469b-8691-a1375399df85.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-2954/1618909426000-4363207d-e3d7-469b-8691-a1375399df85-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "48621e3c-5d5c-40fa-a232-b4a60ffeb38a",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "5f2d989e-5d9a-40d9-8519-29240de8dfa5",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Weapon"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -5915,6 +5797,97 @@
       "displayStyle": "tray",
       "categories": [
         "Missing / Kidnapping"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "S 28th Ave & E Minnehaha Pkwy, Minneapolis, Minnesota, 55406",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1618784497000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1618783297000,
+      "hasVod": false,
+      "key": "-MYb-D-CKu1mvNYcvvxj",
+      "level": 0,
+      "location": "S 28th Ave & E Minnehaha Pkwy",
+      "latitude": 44.916400050239815,
+      "longitude": -93.2322099307702,
+      "neighborhood": "Ericsson, Minneapolis",
+      "raw": "Protesters Gathered at S 28th Ave & E Minnehaha Pkwy, Minneapolis, Minnesota, 55406",
+      "ll": [
+        44.916400050239815,
+        -93.2322099307702
+      ],
+      "rawLocation": "S 28th Ave & E Minnehaha Pkwy, Minneapolis, Minnesota, 55406",
+      "title": "Protesters Gathered",
+      "transcriber": "4e164fd9bcc4decfd104",
+      "ts": 1618783297000,
+      "police": "MPLS PD 3",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MYb-D-CKu1mvNYcvvxj.png",
+      "updates": {
+        "-MYb-CrcMICSqZXzncyn": {
+          "text": "Incident reported at S 28th Ave & E Minnehaha Pkwy.",
+          "ts": 1618783296999,
+          "type": "ROOT",
+          "displayLocation": "S 28th Ave & E Minnehaha Pkwy"
+        },
+        "-MYb-D-P8BMvUpMYzStM": {
+          "text": "Police are responding to an officer's report of a protest. Police describe the protest as small.",
+          "ts": 1618783297000,
+          "type": "TEXT",
+          "displayLocation": "S 28th Ave & E Minnehaha Pkwy",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-2954/1618782899000-4cc671d5-5aee-41cc-b10b-b5b14178d6fc.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/20f92199a038f2d7d357734ccbf034fe/US-MN-MSP/40F-2954/1618782899000-4cc671d5-5aee-41cc-b10b-b5b14178d6fc-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "d583ec2e-636f-44fe-be9c-93b94fe49db5",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "e3de7811-0c1f-4692-97e3-d8b46001ed16",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Protest"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
