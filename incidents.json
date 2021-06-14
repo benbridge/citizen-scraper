@@ -1,6 +1,90 @@
 {
   "results": [
     {
+      "address": "1205 Logan Ave N, Minneapolis, Minnesota, 55411",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1623663340000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1623662122000,
+      "hasVod": false,
+      "key": "-Mc8nSVmMIsizsOV2rGU",
+      "level": 1,
+      "location": "1205 Logan Ave N",
+      "latitude": 44.98990200692319,
+      "longitude": -93.30356800616885,
+      "neighborhood": "Minneapolis",
+      "raw": "Gunshots Detected at 1205 Logan Ave N, Minneapolis, Minnesota, 55411",
+      "ll": [
+        44.98990200692319,
+        -93.30356800616885
+      ],
+      "rawLocation": "1205 Logan Ave N, Minneapolis, Minnesota, 55411",
+      "title": "Gunshots Detected",
+      "transcriber": "8a1f1ff1865a6ca3916c",
+      "ts": 1623662141000,
+      "police": "MPLS PD 4",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mc8nSVmMIsizsOV2rGU.png",
+      "updates": {
+        "-Mc8nSFFRBWZkxRqDyvS": {
+          "text": "Incident reported at 1205 Logan Ave N.",
+          "ts": 1623662121999,
+          "type": "ROOT",
+          "displayLocation": "1205 Logan Ave N"
+        },
+        "-Mc8nSW1kQE18mFyX7eF": {
+          "text": "ShotSpotter technology, which picks up sounds like gunshots, cars backfiring, and other loud noises, has detected potential gunfire.",
+          "ts": 1623662122000,
+          "type": "TEXT",
+          "displayLocation": "1205 Logan Ave N"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "0cb790c2-51ca-43e9-9421-aad1123d7f0e",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "cc52e8e0-8e05-4564-b25b-c71c219b3dd2",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Gun Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
       "address": "2732 S Fremont Ave, Minneapolis, Minnesota, 55408",
       "broadcastRules": {
         "distanceMeters": 805,
@@ -132,97 +216,6 @@
         },
         {
           "id": "fec21754-0947-4a2b-bfaf-56addce6a5bb",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Fire"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "3rd Ave S & E 29th St, Minneapolis, Minnesota, 55408",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1623653862000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1623652662000,
-      "hasVod": false,
-      "key": "-Mc8EMuUWP0_9tEZ0o76",
-      "level": 1,
-      "location": "3rd Ave S & E 29th St",
-      "latitude": 44.950060055102256,
-      "longitude": -93.27281991637909,
-      "neighborhood": "Phillips West, Minneapolis",
-      "raw": "Report of Outside Fire at 3rd Ave S & E 29th St, Minneapolis, Minnesota, 55408",
-      "ll": [
-        44.950060055102256,
-        -93.27281991637909
-      ],
-      "rawLocation": "3rd Ave S & E 29th St, Minneapolis, Minnesota, 55408",
-      "title": "Report of Outside Fire",
-      "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1623652662000,
-      "police": "MPLS PD 3",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mc8EMuUWP0_9tEZ0o76.png",
-      "updates": {
-        "-Mc8EMfkg18joPJlWHsT": {
-          "text": "Incident reported at 3rd Ave S & E 29th St.",
-          "ts": 1623652661999,
-          "type": "ROOT",
-          "displayLocation": "3rd Ave S & E 29th St"
-        },
-        "-Mc8EMuiTg5Ma93V02hh": {
-          "text": "Firefighters are responding to an unconfirmed a report of an outside fire.",
-          "ts": 1623652662000,
-          "type": "TEXT",
-          "displayLocation": "3rd Ave S & E 29th St",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-3016/1623652567000-c2939961-3442-4edf-bf54-9b200c2fcccb.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-3016/1623652567000-c2939961-3442-4edf-bf54-9b200c2fcccb-spectrogram.jpg"
-            }
-          ]
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "424cd942-e232-4c1d-9ebe-bb395233d9aa",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "e5ba5d27-42cc-4f26-ab8a-80eece4cb2e7",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -832,206 +825,6 @@
       }
     },
     {
-      "address": "1903 S 6th St, Minneapolis, Minnesota, 55454",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1623646822000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1623645287000,
-      "hasVod": false,
-      "key": "-Mc7nEOaq8ZBZFxG61mK",
-      "level": 1,
-      "location": "1903 S 6th St",
-      "latitude": 44.9675560206955,
-      "longitude": -93.24531696422274,
-      "neighborhood": "Minneapolis",
-      "raw": "Report of Vehicle Fire at 1903 S 6th St, Minneapolis, Minnesota, 55454",
-      "ll": [
-        44.9675560206955,
-        -93.24531696422274
-      ],
-      "rawLocation": "1903 S 6th St, Minneapolis, Minnesota, 55454",
-      "title": "Report of Vehicle Fire",
-      "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1623645623000,
-      "police": "MPLS PD 1",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mc7nEOaq8ZBZFxG61mK.png",
-      "updates": {
-        "-Mc7nE8NZoC25qyx8C7C": {
-          "text": "Incident reported at 1903 S 6th St.",
-          "ts": 1623645286999,
-          "type": "ROOT",
-          "displayLocation": "1903 S 6th St"
-        },
-        "-Mc7nEOohEnYpvz22s4m": {
-          "text": "Firefighters are responding to an unconfirmed a report of a vehicle fire.",
-          "ts": 1623645287000,
-          "type": "TEXT",
-          "displayLocation": "1903 S 6th St",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-3016/1623645179000-f1cc9e93-8774-479d-bda8-a9ee69527fc8.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-3016/1623645179000-f1cc9e93-8774-479d-bda8-a9ee69527fc8-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mc7npITk0Ifa7VOpZvH": {
-          "text": "Firefighters have arrived on scene.",
-          "ts": 1623645442000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-3016/1623645292000-fa25dd81-ad99-41fc-9af3-c525ac3c6401.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-3016/1623645292000-fa25dd81-ad99-41fc-9af3-c525ac3c6401-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mc7nyGey9o16bA7L6pF": {
-          "text": "Firefighters report that smoke is seen emanating from the passenger compartment.",
-          "ts": 1623645479000,
-          "type": "TEXT",
-          "displayLocation": ""
-        },
-        "-Mc7oWBW_mtbD6Vk56Cs": {
-          "text": "Citizen user video shows firefighters at the scene.",
-          "ts": 1623645622000,
-          "type": "TEXT",
-          "displayLocation": ""
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "418db84e-37e4-4fae-9c38-0e7002e5e9f3",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "999e98f9-2bd7-47e5-a603-b3ba1ec07e61",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Fire"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "3438 Logan Ave N, Minneapolis, Minnesota, 55412",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1623643367000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1623642167000,
-      "hasVod": false,
-      "key": "-Mc7bKcTIg9_RIJdJ7KS",
-      "level": 1,
-      "location": "3438 Logan Ave N",
-      "latitude": 45.01793201315121,
-      "longitude": -93.30281103649308,
-      "neighborhood": "Minneapolis",
-      "raw": "Report of Shots Fired at 3438 Logan Ave N, Minneapolis, Minnesota, 55412",
-      "ll": [
-        45.01793201315121,
-        -93.30281103649308
-      ],
-      "rawLocation": "3438 Logan Ave N, Minneapolis, Minnesota, 55412",
-      "title": "Report of Shots Fired",
-      "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1623642167000,
-      "police": "MPLS PD 4",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mc7bKcTIg9_RIJdJ7KS.png",
-      "updates": {
-        "-Mc7bKQNubpx4TToBmC2": {
-          "text": "Incident reported at 3438 Logan Ave N.",
-          "ts": 1623642166999,
-          "type": "ROOT",
-          "displayLocation": "3438 Logan Ave N"
-        },
-        "-Mc7bKchsArjSXw_2bY8": {
-          "text": "Police have received an unconfirmed report of shots fired.",
-          "ts": 1623642167000,
-          "type": "TEXT",
-          "displayLocation": "3438 Logan Ave N"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "00cd16ea-26ea-46b3-959a-0e3b69edb444",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "6ec76c4d-efc9-4e92-89b8-abddaff24ef5",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
       "address": "E 19th St & 14th Ave S, Minneapolis, Minnesota, 55404",
       "broadcastRules": {
         "distanceMeters": 805,
@@ -1564,6 +1357,97 @@
       "displayStyle": "tray",
       "categories": [
         "Protest"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "N Lyndale Ave & 42nd Ave N, Minneapolis, Minnesota, 55412",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1623617292000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1623616092000,
+      "hasVod": false,
+      "key": "-Mc62rXn_r3jLmIvVMSj",
+      "level": 1,
+      "location": "N Lyndale Ave & 42nd Ave N",
+      "latitude": 45.03151002574316,
+      "longitude": -93.28807992548127,
+      "neighborhood": "Camden Industrial, Minneapolis",
+      "raw": "Hit-and-Run Collision at N Lyndale Ave & 42nd Ave N, Minneapolis, Minnesota, 55412",
+      "ll": [
+        45.03151002574316,
+        -93.28807992548127
+      ],
+      "rawLocation": "N Lyndale Ave & 42nd Ave N, Minneapolis, Minnesota, 55412",
+      "title": "Hit-and-Run Collision",
+      "transcriber": "1ed31b5154872ac4deef",
+      "ts": 1623616092000,
+      "police": "MPLS PD 4",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mc62rXn_r3jLmIvVMSj.png",
+      "updates": {
+        "-Mc62rSVFubDDt8bjDX6": {
+          "text": "Incident reported at N Lyndale Ave & 42nd Ave N.",
+          "ts": 1623616091999,
+          "type": "ROOT",
+          "displayLocation": "N Lyndale Ave & 42nd Ave N"
+        },
+        "-Mc62rY3YlFuJtGTl3cF": {
+          "text": "Police are responding to a 911 report of a hit-and-run collision.",
+          "ts": 1623616092000,
+          "type": "TEXT",
+          "displayLocation": "N Lyndale Ave & 42nd Ave N",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-3016/1623615973000-724f8f77-51c1-40a8-a1b0-382cac0756da.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-3016/1623615973000-724f8f77-51c1-40a8-a1b0-382cac0756da-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "b073a814-4eaf-416c-802a-c74c98973281",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "0f771a55-c43f-48a6-813a-b75e1d59485d",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Hazardous Condition"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -5540,6 +5424,109 @@
       "displayStyle": "tray",
       "categories": [
         "Fire"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "3535 S Grand Ave, Minneapolis, Minnesota, 55408",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1623433053000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1623431339000,
+      "hasVod": false,
+      "key": "-Mbw24zOm_0BZeggvwm7",
+      "level": 1,
+      "location": "3535 S Grand Ave",
+      "latitude": 44.93885801105673,
+      "longitude": -93.28424900542741,
+      "neighborhood": "Lyndale, Minneapolis",
+      "raw": "Report of Woman Assaulted, Robbed Person With Hammer at 3535 S Grand Ave, Minneapolis, Minnesota, 55408",
+      "ll": [
+        44.93885801105673,
+        -93.28424900542741
+      ],
+      "rawLocation": "3535 S Grand Ave, Minneapolis, Minnesota, 55408",
+      "title": "Report of Woman Assaulted, Robbed Person With Hammer",
+      "transcriber": "40596e283a7ccdb54daa",
+      "ts": 1623431853000,
+      "police": "MPLS PD 5",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mbw24zOm_0BZeggvwm7.png",
+      "updates": {
+        "-Mbw24jseccM2UeWMkas": {
+          "text": "Incident reported at S Grand Ave & W 35th St.",
+          "ts": 1623431338999,
+          "type": "ROOT",
+          "displayLocation": "S Grand Ave & W 35th St"
+        },
+        "-Mbw24zeaalXMrDE2JKG": {
+          "text": "Police are responding to a report of a person who may be in need of assistance.",
+          "ts": 1623431339000,
+          "type": "TEXT",
+          "displayLocation": "S Grand Ave & W 35th St",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-2958/1623431223000-019ee908-1eb9-498d-95fc-fb6f225df8dc.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/f6d58c14cb710d5be77204a6062557f0/US-MN-MSP/40F-2958/1623431223000-019ee908-1eb9-498d-95fc-fb6f225df8dc-spectrogram.jpg"
+            }
+          ]
+        },
+        "-Mbw42E7xo0ut3_s3N3w": {
+          "text": "The address reported for this incident has changed to 3535 S Grand Ave.",
+          "ts": 1623431852999,
+          "type": "LOCATION_CHANGE",
+          "displayLocation": "3535 S Grand Ave"
+        },
+        "-Mbw42GWCVrrs7BQ1gka": {
+          "text": "A 911 caller has reported a woman assaulting another woman with a hammer. It is also reported that the suspect robbed the woman.",
+          "ts": 1623431853000,
+          "type": "TEXT",
+          "displayLocation": "3535 S Grand Ave"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "13bcbed2-124b-4549-996f-ff2d2860a6a8",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "1dac4e2b-680d-4340-8776-f37c64d7aade",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Robbery / Theft "
       ],
       "incidentSettings": {
         "displayStyle": "tray",
