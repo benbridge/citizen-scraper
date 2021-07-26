@@ -1,44 +1,69 @@
 {
   "results": [
     {
-      "address": "N 41st Ave & Lyndale Ave N, Minneapolis, Minnesota, 55412",
+      "address": "641 Humboldt Ave, Saint Paul, Minnesota, 55107",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1627285778000
+        "deadline": 1627289491000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1627284578000,
+      "cs": 1627287688000,
       "hasVod": false,
-      "key": "-MfWi1QWAnF2Y8wxroHM",
+      "key": "-MfWtt_RTQ6ZJ0bzDFBK",
       "level": 0,
-      "location": "N 41st Ave & Lyndale Ave N",
-      "latitude": 45.02937004204344,
-      "longitude": -93.28809987441082,
-      "neighborhood": "Webber-Camden, Minneapolis",
-      "raw": "Police Activity at N 41st Ave & Lyndale Ave N, Minneapolis, Minnesota, 55412",
+      "location": "641 Humboldt Ave",
+      "latitude": 44.92659600681,
+      "longitude": -93.08542503653347,
+      "neighborhood": "Saint Paul",
+      "raw": "Natural Gas Odor at 641 Humboldt Ave, Saint Paul, Minnesota, 55107",
       "ll": [
-        45.02937004204344,
-        -93.28809987441082
+        44.92659600681,
+        -93.08542503653347
       ],
-      "rawLocation": "N 41st Ave & Lyndale Ave N, Minneapolis, Minnesota, 55412",
-      "title": "Police Activity",
+      "rawLocation": "641 Humboldt Ave, Saint Paul, Minnesota, 55107",
+      "title": "Natural Gas Odor",
       "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1627284580000,
-      "police": "MPLS PD 4",
+      "ts": 1627288293000,
+      "police": "SPPD Central",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfWi1QWAnF2Y8wxroHM.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfWtt_RTQ6ZJ0bzDFBK.png",
       "updates": {
-        "-MfWi0vFznLxgNQGKwQ8": {
-          "text": "Incident reported at N 41st Ave & Lyndale Ave N.",
-          "ts": 1627284577999,
+        "-MfWttC-DZMF352unBkX": {
+          "text": "Incident reported at 6401 Humboldt Ave S.",
+          "ts": 1627287687999,
           "type": "ROOT",
-          "displayLocation": "N 41st Ave & Lyndale Ave N"
+          "displayLocation": "6401 Humboldt Ave S"
         },
-        "-MfWi1QmKXPxcxOEKE-X": {
-          "text": "Police are responding to a person who may be in need of assistance.",
-          "ts": 1627284578000,
+        "-MfWtt_goAdODQ6RyWBz": {
+          "text": "Firefighters are responding to an unconfirmed report of a natural gas odor.",
+          "ts": 1627287688000,
           "type": "TEXT",
-          "displayLocation": "N 41st Ave & Lyndale Ave N"
+          "displayLocation": "6401 Humboldt Ave S"
+        },
+        "-MfWv7Y7gVyAHqdV3LWD": {
+          "text": "The address reported for this incident has changed to 641 Humboldt Ave.",
+          "ts": 1627288012999,
+          "type": "LOCATION_CHANGE",
+          "displayLocation": "641 Humboldt Ave"
+        },
+        "-MfWv85FqH8eRkqfimjw": {
+          "text": "Contrary to the previous report, the location has been updated to a more accurate address.",
+          "ts": 1627288013000,
+          "type": "TEXT",
+          "displayLocation": "641 Humboldt Ave"
+        },
+        "-MfWvGqjqgkpTiPTvDCD": {
+          "text": "Firefighters have arrived on scene.",
+          "ts": 1627288049000,
+          "type": "TEXT",
+          "displayLocation": "",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627287861000-56ec97ef-a6ec-4fd6-bd7b-655fb293fe8c.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627287861000-56ec97ef-a6ec-4fd6-bd7b-655fb293fe8c-spectrogram.jpg"
+            }
+          ]
         }
       },
       "nearbyThreshold": 400,
@@ -53,7 +78,7 @@
       "closed": false,
       "modules": [
         {
-          "id": "2c2b0143-1da8-4a42-951c-f6ae8520be04",
+          "id": "dbbbf1b5-b57c-4b6f-800d-129877c1bac5",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -63,7 +88,91 @@
           }
         },
         {
-          "id": "32bc56e1-97c2-4077-920a-e83dae94aaec",
+          "id": "07e3cfd5-f10b-4bc8-ab9c-35458bf56319",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Hazardous Condition"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "E 55th St & 44th Ave S, Minneapolis, Minnesota, 55417",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1627288150000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1627286950000,
+      "hasVod": false,
+      "key": "-MfWr4WQp5EBl32aEYZv",
+      "level": 0,
+      "location": "E 55th St & 44th Ave S",
+      "latitude": 44.903570038687235,
+      "longitude": -93.21015990954366,
+      "neighborhood": "Morris Park, Minneapolis",
+      "raw": "Police Activity at E 55th St & 44th Ave S, Minneapolis, Minnesota, 55417",
+      "ll": [
+        44.903570038687235,
+        -93.21015990954366
+      ],
+      "rawLocation": "E 55th St & 44th Ave S, Minneapolis, Minnesota, 55417",
+      "title": "Police Activity",
+      "transcriber": "8a1f1ff1865a6ca3916c",
+      "ts": 1627286952000,
+      "police": "MPLS PD 3",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfWr4WQp5EBl32aEYZv.png",
+      "updates": {
+        "-MfWr40kgTB7LRyR-Tu4": {
+          "text": "Incident reported at E 55th St & 44th Ave S.",
+          "ts": 1627286949999,
+          "type": "ROOT",
+          "displayLocation": "E 55th St & 44th Ave S"
+        },
+        "-MfWr4WeQlTSASG8w_V4": {
+          "text": "Police are responding to a person who may be in need of assistance.",
+          "ts": 1627286950000,
+          "type": "TEXT",
+          "displayLocation": "E 55th St & 44th Ave S"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "0e584040-59f1-482f-9466-cd5c97415247",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "4d554f6d-9728-4876-b089-1debaf469a65",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -85,44 +194,44 @@
       }
     },
     {
-      "address": "3121 Clinton Ave, Minneapolis, Minnesota, 55408",
+      "address": "3414 Russell Ave N, Minneapolis, Minnesota, 55412",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1627283679000
+        "deadline": 1627277137000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1627282479000,
+      "cs": 1627275937000,
       "hasVod": false,
-      "key": "-MfWa0vpyBVUl5dwHGqi",
+      "key": "-MfWC3ntAPD4k47rkbvI",
       "level": 1,
-      "location": "3121 Clinton Ave",
-      "latitude": 44.94590300831288,
-      "longitude": -93.27126901283454,
+      "location": "3414 Russell Ave N",
+      "latitude": 45.0173589843406,
+      "longitude": -93.3104379816495,
       "neighborhood": "Minneapolis",
-      "raw": "One Gunshots Detected at 3121 Clinton Ave, Minneapolis, Minnesota, 55408",
+      "raw": "One Shot Detected at 3414 Russell Ave N, Minneapolis, Minnesota, 55412",
       "ll": [
-        44.94590300831288,
-        -93.27126901283454
+        45.0173589843406,
+        -93.3104379816495
       ],
-      "rawLocation": "3121 Clinton Ave, Minneapolis, Minnesota, 55408",
-      "title": "One Gunshots Detected",
-      "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1627282480000,
-      "police": "MPLS PD 3",
+      "rawLocation": "3414 Russell Ave N, Minneapolis, Minnesota, 55412",
+      "title": "One Shot Detected",
+      "transcriber": "f69c48f2d0e6822290a5",
+      "ts": 1627275939000,
+      "police": "MPLS PD 4",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfWa0vpyBVUl5dwHGqi.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfWC3ntAPD4k47rkbvI.png",
       "updates": {
-        "-MfWa0TN5kr2JHk2NBeC": {
-          "text": "Incident reported at 3121 Clinton Ave.",
-          "ts": 1627282478999,
+        "-MfWC3Ichd0S5Y5WIihA": {
+          "text": "Incident reported at 3414 Russell Ave N.",
+          "ts": 1627275936999,
           "type": "ROOT",
-          "displayLocation": "3121 Clinton Ave"
+          "displayLocation": "3414 Russell Ave N"
         },
-        "-MfWa0w7h4WJZdBwYm4X": {
-          "text": "ShotSpotter technology, which picks up sounds like gunshots, cars backfiring, and other loud noises, has detected one round of potential gunfire.",
-          "ts": 1627282479000,
+        "-MfWC3o9SUX7cinRdgJ0": {
+          "text": "ShotSpotter technology, which picks up loud noises like gunshots, fireworks, and cars backfiring, has detected the sound of potential gunfire.",
+          "ts": 1627275937000,
           "type": "TEXT",
-          "displayLocation": "3121 Clinton Ave"
+          "displayLocation": "3414 Russell Ave N"
         }
       },
       "nearbyThreshold": 400,
@@ -137,7 +246,7 @@
       "closed": false,
       "modules": [
         {
-          "id": "c2b4b43e-34a8-4c78-ac6b-6dd88dbeadee",
+          "id": "1a0b7bdf-1ae9-48f4-a101-20d481df321e",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -147,7 +256,7 @@
           }
         },
         {
-          "id": "ebfdc040-9bf7-412e-9c8b-06d33a6225a7",
+          "id": "b6a7cdfa-22b4-413e-a83c-069640dab805",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -162,207 +271,6 @@
       "displayStyle": "tray",
       "categories": [
         "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "206 Airport Rd, St Paul, MN 55107, USA",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627281474000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627277667000,
-      "hasVod": false,
-      "key": "-MfWIeh-MQA1XBA2i1kx",
-      "level": 0,
-      "location": "206 Airport Rd",
-      "latitude": 44.93971,
-      "longitude": -93.06793,
-      "helicopter": {
-        "ident": "N118SP",
-        "heading": 281,
-        "arrivalTime": 1627280266
-      },
-      "neighborhood": "",
-      "raw": "Landed Police Helicopter at 206 Airport Rd, St Paul, MN 55107, USA",
-      "ll": [
-        44.93971,
-        -93.06793
-      ],
-      "rawLocation": "206 Airport Rd, St Paul, MN 55107, USA",
-      "title": "Landed Police Helicopter",
-      "transcriber": "bot",
-      "ts": 1627280274000,
-      "police": "SPPD Central",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfWIeh-MQA1XBA2i1kx.png",
-      "updates": {
-        "-MfWIeesBQo5T_uFU2ir": {
-          "text": "Incident reported at 206 Airport Rd.",
-          "ts": 1627277666999,
-          "type": "ROOT",
-          "displayLocation": "206 Airport Rd"
-        },
-        "-MfWIeifrmshGDKXKzgY": {
-          "text": "N118SP departed STP at 12:34AM CDT",
-          "ts": 1627277667000,
-          "type": "TEXT",
-          "displayLocation": "206 Airport Rd"
-        },
-        "-MfWSbF9fWt0OVGSt1BB": {
-          "text": "Helicopter has landed at 2:17AM",
-          "ts": 1627280274000,
-          "type": "TEXT",
-          "displayLocation": ""
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "514900cd-44b5-488d-aeb0-90061e27a92c",
-          "type": "web",
-          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/flight_data/index.html?incidentId=-MfWIeh-MQA1XBA2i1kx&env=PROD",
-          "title": "FLIGHT DATA",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "9858f7d4-530c-48a3-8cc4-31cad1c24bca",
-          "type": "web",
-          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/helicopter_info/index.html?incidentId=-MfWIeh-MQA1XBA2i1kx&env=PROD",
-          "title": "HELICOPTER INFORMATION",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "07b82fee-8f1b-44fc-8479-a57f2f22f355",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 2,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "b2b8430b-f617-4dac-95da-1805ead0bca4",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 3,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Helicopter"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "E 18th St & Columbus Ave, Minneapolis, Minnesota, 55404",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627276271000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627275071000,
-      "hasVod": false,
-      "key": "-MfW8lHqTd28-bQY4KDF",
-      "level": 0,
-      "location": "E 18th St & Columbus Ave",
-      "latitude": 44.965230042564315,
-      "longitude": -93.26374994277198,
-      "neighborhood": "Ventura Village, Minneapolis",
-      "raw": "Police Activity at E 18th St & Columbus Ave, Minneapolis, Minnesota, 55404",
-      "ll": [
-        44.965230042564315,
-        -93.26374994277198
-      ],
-      "rawLocation": "E 18th St & Columbus Ave, Minneapolis, Minnesota, 55404",
-      "title": "Police Activity",
-      "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1627275072000,
-      "police": "MPLS PD 3",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfW8lHqTd28-bQY4KDF.png",
-      "updates": {
-        "-MfW8ksNYvez0vfAVWMo": {
-          "text": "Incident reported at E 18th St & Columbus Ave.",
-          "ts": 1627275070999,
-          "type": "ROOT",
-          "displayLocation": "E 18th St & Columbus Ave"
-        },
-        "-MfW8lI5bM10dPkmRcxN": {
-          "text": "Police are responding to a person who may be in need of assistance.",
-          "ts": 1627275071000,
-          "type": "TEXT",
-          "displayLocation": "E 18th St & Columbus Ave"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "bc27b674-5cdb-4d65-887a-4299756fc26a",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "b2449435-df52-4294-80da-4a37736ae69b",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Police Related"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -454,44 +362,44 @@
       }
     },
     {
-      "address": "2728 39th Ave S, Minneapolis, Minnesota, 55406",
+      "address": "E 31st St & Clinton Ave S, Minneapolis, Minnesota, 55408",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1627274842000
+        "deadline": 1627274776000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1627273642000,
+      "cs": 1627273576000,
       "hasVod": false,
-      "key": "-MfW3JKXUjrZkSyL-_Po",
+      "key": "-MfW33HB-rkTgWiO5NE-",
       "level": 1,
-      "location": "2728 39th Ave S",
-      "latitude": 44.95272399156946,
-      "longitude": -93.21702100020694,
-      "neighborhood": "Minneapolis",
-      "raw": "Person Robbed at 2728 39th Ave S, Minneapolis, Minnesota, 55406",
+      "location": "E 31st St & Clinton Ave S",
+      "latitude": 44.9466400290591,
+      "longitude": -93.27153991594517,
+      "neighborhood": "Central, Minneapolis",
+      "raw": "Person Robbed at E 31st St & Clinton Ave S, Minneapolis, Minnesota, 55408",
       "ll": [
-        44.95272399156946,
-        -93.21702100020694
+        44.9466400290591,
+        -93.27153991594517
       ],
-      "rawLocation": "2728 39th Ave S, Minneapolis, Minnesota, 55406",
+      "rawLocation": "E 31st St & Clinton Ave S, Minneapolis, Minnesota, 55408",
       "title": "Person Robbed",
       "transcriber": "8a1f1ff1865a6ca3916c",
-      "ts": 1627273643000,
+      "ts": 1627273577000,
       "police": "MPLS PD 3",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfW3JKXUjrZkSyL-_Po.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfW33HB-rkTgWiO5NE-.png",
       "updates": {
-        "-MfW3J-F18niQe-2taRg": {
-          "text": "Incident reported at 2728 39th Ave S.",
-          "ts": 1627273641999,
+        "-MfW32t-Uk6K2bz1F0Db": {
+          "text": "Incident reported at E 31st St & Clinton Ave S.",
+          "ts": 1627273575999,
           "type": "ROOT",
-          "displayLocation": "2728 39th Ave S"
+          "displayLocation": "E 31st St & Clinton Ave S"
         },
-        "-MfW3JKkak2PvT-990nl": {
+        "-MfW33HPNX6WtJjt4D1E": {
           "text": "Police have received an unconfirmed report of a person robbed.",
-          "ts": 1627273642000,
+          "ts": 1627273576000,
           "type": "TEXT",
-          "displayLocation": "2728 39th Ave S"
+          "displayLocation": "E 31st St & Clinton Ave S"
         }
       },
       "nearbyThreshold": 400,
@@ -506,7 +414,7 @@
       "closed": false,
       "modules": [
         {
-          "id": "ff0affd9-4a38-429b-a7e9-f52019430c33",
+          "id": "e6769967-b616-42c6-ab5a-58a2945c5a98",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -516,7 +424,7 @@
           }
         },
         {
-          "id": "a9e8ffbc-5b94-499f-9f08-1259b0b8a682",
+          "id": "428a0e20-eb21-47ca-a965-6f4033fe6a09",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -856,90 +764,6 @@
       "displayStyle": "tray",
       "categories": [
         "Fire / EMS Activity"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "22nd St E & 22nd Ave S, Minneapolis, Minnesota, 55404",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627269167000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627267967000,
-      "hasVod": false,
-      "key": "-MfVie_Ahj431YtyDq5H",
-      "level": 1,
-      "location": "22nd St E & 22nd Ave S",
-      "latitude": 44.96096004962965,
-      "longitude": -93.24089995270637,
-      "neighborhood": "Seward, Minneapolis",
-      "raw": "Report of Person Robbed at Gunpoint at 22nd St E & 22nd Ave S, Minneapolis, Minnesota, 55404",
-      "ll": [
-        44.96096004962965,
-        -93.24089995270637
-      ],
-      "rawLocation": "22nd St E & 22nd Ave S, Minneapolis, Minnesota, 55404",
-      "title": "Report of Person Robbed at Gunpoint",
-      "transcriber": "1ed31b5154872ac4deef",
-      "ts": 1627267967000,
-      "police": "MPLS PD 3",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfVie_Ahj431YtyDq5H.png",
-      "updates": {
-        "-MfVieVNG0kmuaTMqACP": {
-          "text": "Incident reported at 22nd St E & 22nd Ave S.",
-          "ts": 1627267966999,
-          "type": "ROOT",
-          "displayLocation": "22nd St E & 22nd Ave S"
-        },
-        "-MfVie_RWX2ZaDJS7tW1": {
-          "text": "Police have received an unconfirmed report of a person robbed at gunpoint.",
-          "ts": 1627267967000,
-          "type": "TEXT",
-          "displayLocation": "22nd St E & 22nd Ave S"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "b5f85ea8-654a-4897-a066-608392aabf7e",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "0cdef780-1232-4f91-8e99-59cbd87a12d3",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -1468,6 +1292,110 @@
       "displayStyle": "tray",
       "categories": [
         "Hazardous Condition"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "949 Euclid St, Saint Paul, Minnesota, 55106",
+      "broadcastRules": {
+        "distanceMeters": 1609,
+        "deadline": 1627222301000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1627218044000,
+      "hasVod": false,
+      "key": "-MfSkDKZFIeMmhT_iH1i",
+      "level": 2,
+      "location": "949 Euclid St",
+      "latitude": 44.95515801243258,
+      "longitude": -93.06041000087765,
+      "neighborhood": "Saint Paul",
+      "raw": "Vehicle Fire at 949 Euclid St, Saint Paul, Minnesota, 55106",
+      "ll": [
+        44.95515801243258,
+        -93.06041000087765
+      ],
+      "rawLocation": "949 Euclid St, Saint Paul, Minnesota, 55106",
+      "title": "Vehicle Fire",
+      "transcriber": "fbe9aa8e99e1bc2b26ed",
+      "ts": 1627218701000,
+      "police": "SPPD Eastern",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfSkDKZFIeMmhT_iH1i.png",
+      "updates": {
+        "-MfSkDGVcEoUz9ZpNrUL": {
+          "text": "Incident reported at 949 Euclid St.",
+          "ts": 1627218043999,
+          "type": "ROOT",
+          "displayLocation": "949 Euclid St"
+        },
+        "-MfSkDKoBNnY0Ypnfh7u": {
+          "text": "Firefighters have received a report of a vehicle fire in an alley.",
+          "ts": 1627218044000,
+          "type": "TEXT",
+          "displayLocation": "949 Euclid St",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1627217902000-6fd2b37d-baa3-4eb0-9413-4c5d554fac9c.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1627217902000-6fd2b37d-baa3-4eb0-9413-4c5d554fac9c-spectrogram.jpg"
+            }
+          ]
+        },
+        "-MfSl6_XHAawZvxM6f5g": {
+          "text": "Firefighters are on the scene. They confirm a vehicle fire.",
+          "ts": 1627218278000,
+          "type": "TEXT",
+          "displayLocation": "",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11636/1627218154000-7edb01f9-b596-43be-be27-1b65db1e363b.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11636/1627218154000-7edb01f9-b596-43be-be27-1b65db1e363b-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "red",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "1c66319d-ea6c-4632-9ab6-49bb51961df2",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "f9296764-8d09-40a5-84c1-0cde5311c8b0",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Fire"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -5454,6 +5382,90 @@
       "displayStyle": "tray",
       "categories": [
         "Robbery / Theft "
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "716 Monroe St NE, Minneapolis, MN, 55413, USA",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1627063445000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1627062245000,
+      "hasVod": false,
+      "key": "-MfJStNxPVvR0O2rslLe",
+      "level": 0,
+      "location": "716 Monroe St NE",
+      "latitude": 44.9975,
+      "longitude": -93.25272,
+      "neighborhood": "Minneapolis",
+      "raw": "Police Activity at 716 Monroe St NE, Minneapolis, MN, 55413, USA",
+      "ll": [
+        44.9975,
+        -93.25272
+      ],
+      "rawLocation": "716 Monroe St NE, Minneapolis, MN, 55413, USA",
+      "title": "Police Activity",
+      "transcriber": "a60e1c16627fa18be1e7",
+      "ts": 1627062244000,
+      "police": "MPLS PD 2",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MfJStNxPVvR0O2rslLe.png",
+      "updates": {
+        "-MfJStOF7a31W6u66bok": {
+          "text": "Citizen user video shows a police unit at the scene of an unspecified incident.",
+          "ts": 1627062245000,
+          "type": "TEXT",
+          "displayLocation": "716 Monroe St NE"
+        },
+        "-MfJStP7LmZM_kSN4tge": {
+          "text": "Incident reported at 716 Monroe St NE.",
+          "ts": 1627062244999,
+          "type": "ROOT",
+          "displayLocation": "716 Monroe St NE"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "community",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "3e912e88-3614-4eec-ad05-df65d787bafa",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "ad4067a0-341f-468e-8961-07d99cdcdd42",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Police Related"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
