@@ -1,51 +1,49 @@
 {
   "results": [
     {
-      "address": "37th Ave NE & Hayes St NE, Minneapolis, Minnesota, 55421",
+      "address": "2348-1426 Pigs Eye Lake Rd, St Paul, MN 55106, USA",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1628188610000
+        "deadline": 1628196403000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1628187410000,
+      "cs": 1628195203000,
       "hasVod": false,
-      "key": "-MgMX2x6h5dXJTrRMksU",
-      "level": 1,
-      "location": "37th Ave NE & Hayes St NE",
-      "latitude": 45.035640040894805,
-      "longitude": -93.23458988835783,
-      "neighborhood": "Waite Park, Minneapolis",
-      "raw": "Vehicle Collision With Injuries at 37th Ave NE & Hayes St NE, Minneapolis, Minnesota, 55421",
+      "key": "-MgMzmNZKOxgqFF9pJYI",
+      "level": 0,
+      "location": "2348-1426 Pigs Eye Lake Rd",
+      "latitude": 44.92705,
+      "longitude": -93.0337,
+      "helicopter": {
+        "ident": "N119SP",
+        "heading": 91,
+        "arrivalTime": 0
+      },
+      "neighborhood": "",
+      "raw": "Active Police Helicopter (N119SP) at 2348-1426 Pigs Eye Lake Rd, St Paul, MN 55106, USA",
       "ll": [
-        45.035640040894805,
-        -93.23458988835783
+        44.92705,
+        -93.0337
       ],
-      "rawLocation": "37th Ave NE & Hayes St NE, Minneapolis, Minnesota, 55421",
-      "title": "Vehicle Collision With Injuries",
-      "transcriber": "fbe9aa8e99e1bc2b26ed",
-      "ts": 1628187410000,
-      "police": "MPLS PD 2",
+      "rawLocation": "2348-1426 Pigs Eye Lake Rd, St Paul, MN 55106, USA",
+      "title": "Active Police Helicopter (N119SP)",
+      "transcriber": "bot",
+      "ts": 1628195202000,
+      "police": "SPPD Eastern",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgMX2x6h5dXJTrRMksU.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgMzmNZKOxgqFF9pJYI.png",
       "updates": {
-        "-MgMX2tFaubwS4nyEenB": {
-          "text": "Incident reported at 37th Ave NE & Hayes St NE.",
-          "ts": 1628187409999,
-          "type": "ROOT",
-          "displayLocation": "37th Ave NE & Hayes St NE"
-        },
-        "-MgMX2xKnbR4SEU-bp_8": {
-          "text": "Firefighters have received a report of a vehicle collision with possible injuries.",
-          "ts": 1628187410000,
+        "-MgMzmP-xcfUD71Vswvk": {
+          "text": "N119SP departed STP at 03:26PM CDT",
+          "ts": 1628195203000,
           "type": "TEXT",
-          "displayLocation": "37th Ave NE & Hayes St NE",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1628186978000-dbecd4b1-aa00-4566-84ef-789de6839fff.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1628186978000-dbecd4b1-aa00-4566-84ef-789de6839fff-spectrogram.jpg"
-            }
-          ]
+          "displayLocation": "2348-1426 Pigs Eye Lake Rd"
+        },
+        "-MgMzmTsx-4v0GlX4kCG": {
+          "text": "Incident reported at 2348-1426 Pigs Eye Lake Rd.",
+          "ts": 1628195202999,
+          "type": "ROOT",
+          "displayLocation": "2348-1426 Pigs Eye Lake Rd"
         }
       },
       "nearbyThreshold": 400,
@@ -60,9 +58,10 @@
       "closed": false,
       "modules": [
         {
-          "id": "46ba7520-753c-42cb-b538-d8ddff28a4be",
-          "type": "nib",
-          "title": "Citizen Summary",
+          "id": "43bd31c2-aab9-479c-a615-5fa07a42b902",
+          "type": "web",
+          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/flight_data/index.html?incidentId=-MgMzmNZKOxgqFF9pJYI&env=PROD",
+          "title": "FLIGHT DATA",
           "rank": 0,
           "template": {
             "name": "",
@@ -70,10 +69,31 @@
           }
         },
         {
-          "id": "5f9df791-836f-4dcb-9da8-529fee0069d1",
+          "id": "ca8d65ad-be33-4bb1-a7a0-e72894af7732",
+          "type": "web",
+          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/helicopter_info/index.html?incidentId=-MgMzmNZKOxgqFF9pJYI&env=PROD",
+          "title": "HELICOPTER INFORMATION",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "37b3ee61-9368-4a4f-9e80-b8d86063cf17",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 2,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "c0205f7b-f0cc-4302-badd-fe3a251eee73",
           "type": "updates",
           "title": "Updates",
-          "rank": 1,
+          "rank": 3,
           "template": {
             "name": "",
             "gcsUrl": ""
@@ -84,7 +104,7 @@
       "isGoodNews": false,
       "displayStyle": "tray",
       "categories": [
-        "Traffic Related"
+        "Helicopter"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -92,44 +112,44 @@
       }
     },
     {
-      "address": "S 9th St & Nicollet Mall, Minneapolis, Minnesota, 55402",
+      "address": "Western Ave N & Hatch Ave, Saint Paul, Minnesota, 55117",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1628187200000
+        "deadline": 1628191075000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1628186000000,
+      "cs": 1628189875000,
       "hasVod": false,
-      "key": "-MgMRg9K4TC7KM2S9BUc",
+      "key": "-MgMfSrFgHxxmQ9_kRnY",
       "level": 1,
-      "location": "S 9th St & Nicollet Mall",
-      "latitude": 44.97499005635035,
-      "longitude": -93.2738498846413,
-      "neighborhood": "Downtown West, Minneapolis",
-      "raw": "Report of Man Armed With Weapon at S 9th St & Nicollet Mall, Minneapolis, Minnesota, 55402",
+      "location": "Western Ave N & Hatch Ave",
+      "latitude": 44.97104004256943,
+      "longitude": -93.11611990123806,
+      "neighborhood": "South of Maryland, Saint Paul",
+      "raw": "15 Shots Heard at Western Ave N & Hatch Ave, Saint Paul, Minnesota, 55117",
       "ll": [
-        44.97499005635035,
-        -93.2738498846413
+        44.97104004256943,
+        -93.11611990123806
       ],
-      "rawLocation": "S 9th St & Nicollet Mall, Minneapolis, Minnesota, 55402",
-      "title": "Report of Man Armed With Weapon",
-      "transcriber": "df559b081ccec8b200aa",
-      "ts": 1628186002000,
-      "police": "MPLS PD 1",
+      "rawLocation": "Western Ave N & Hatch Ave, Saint Paul, Minnesota, 55117",
+      "title": "15 Shots Heard",
+      "transcriber": "fbe9aa8e99e1bc2b26ed",
+      "ts": 1628189875000,
+      "police": "SPPD Central",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgMRg9K4TC7KM2S9BUc.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgMfSrFgHxxmQ9_kRnY.png",
       "updates": {
-        "-MgMRfe-vxxurNXooyNn": {
-          "text": "Incident reported at S 9th St & Nicollet Mall.",
-          "ts": 1628185999999,
+        "-MgMfSgsyiEuOgfBXpUW": {
+          "text": "Incident reported at Western Ave N & Hatch Ave.",
+          "ts": 1628189874999,
           "type": "ROOT",
-          "displayLocation": "S 9th St & Nicollet Mall"
+          "displayLocation": "Western Ave N & Hatch Ave"
         },
-        "-MgMRg9ZH2lY4zwIwj7a": {
-          "text": "Police have received a report of a man armed with a weapon.",
-          "ts": 1628186000000,
+        "-MgMfSrTEoCmceBUY8sW": {
+          "text": "Police have received a report of 15 shots heard. A man was reportedly seen walking in the area.",
+          "ts": 1628189875000,
           "type": "TEXT",
-          "displayLocation": "S 9th St & Nicollet Mall"
+          "displayLocation": "Western Ave N & Hatch Ave"
         }
       },
       "nearbyThreshold": 400,
@@ -144,7 +164,7 @@
       "closed": false,
       "modules": [
         {
-          "id": "3ae70e5a-c635-48e0-be90-24af71bbb406",
+          "id": "50f3f12e-80e7-477f-a42d-2a6f6d544acd",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -154,7 +174,7 @@
           }
         },
         {
-          "id": "7a62fcfd-887d-4548-b098-e80a1cd3faf0",
+          "id": "3cc79bda-fdd9-479e-8720-f68d552a77d8",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -253,90 +273,6 @@
       "displayStyle": "tray",
       "categories": [
         "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "1346 Lasalle Ave, Minneapolis, Minnesota, 55403",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1628182700000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1628181500000,
-      "hasVod": false,
-      "key": "-MgMAWTOgaugOcJUZvfI",
-      "level": 0,
-      "location": "1346 Lasalle Ave",
-      "latitude": 44.970216017668236,
-      "longitude": -93.27982500813893,
-      "neighborhood": "Minneapolis",
-      "raw": "Man Exposing Himself at 1346 Lasalle Ave, Minneapolis, Minnesota, 55403",
-      "ll": [
-        44.970216017668236,
-        -93.27982500813893
-      ],
-      "rawLocation": "1346 Lasalle Ave, Minneapolis, Minnesota, 55403",
-      "title": "Man Exposing Himself",
-      "transcriber": "df559b081ccec8b200aa",
-      "ts": 1628181501000,
-      "police": "MPLS PD 1",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgMAWTOgaugOcJUZvfI.png",
-      "updates": {
-        "-MgMAW0Vqg5SztK6VGZ0": {
-          "text": "Incident reported at 1346 Lasalle Ave.",
-          "ts": 1628181499999,
-          "type": "ROOT",
-          "displayLocation": "1346 Lasalle Ave"
-        },
-        "-MgMAWTaJ3edNqxpXHV6": {
-          "text": "Police have received a report of a man exposing himself.",
-          "ts": 1628181500000,
-          "type": "TEXT",
-          "displayLocation": "1346 Lasalle Ave"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "957eb016-99fe-4d77-8d82-b2a0e07e3498",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "b4c6d34b-88cc-4aef-b969-4b7b7f607b36",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Harassment"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -594,97 +530,6 @@
       "displayStyle": "tray",
       "categories": [
         "Hazardous Condition"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "Shepard Rd & Otto Ave, Saint Paul, Minnesota, 55102",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1628175406000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1628174206000,
-      "hasVod": false,
-      "key": "-MgLjfzd6nivEzvqUsHw",
-      "level": 1,
-      "location": "Shepard Rd & Otto Ave",
-      "latitude": 44.919430024418716,
-      "longitude": -93.13111990370375,
-      "neighborhood": "West 7th, Saint Paul",
-      "raw": "Report of Trash Fire at Shepard Rd & Otto Ave, Saint Paul, Minnesota, 55102",
-      "ll": [
-        44.919430024418716,
-        -93.13111990370375
-      ],
-      "rawLocation": "Shepard Rd & Otto Ave, Saint Paul, Minnesota, 55102",
-      "title": "Report of Trash Fire",
-      "transcriber": "fbe9aa8e99e1bc2b26ed",
-      "ts": 1628174204000,
-      "police": "SPPD Central",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgLjfzd6nivEzvqUsHw.png",
-      "updates": {
-        "-MgLjfzuilRr28r__k-_": {
-          "text": "Firefighters have received a report of a trash fire.",
-          "ts": 1628174206000,
-          "type": "TEXT",
-          "displayLocation": "Shepard Rd & Otto Ave",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628173754000-ba06fde2-eb81-451e-972d-a4dda75b074e.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628173754000-ba06fde2-eb81-451e-972d-a4dda75b074e-spectrogram.jpg"
-            }
-          ]
-        },
-        "-MgLjgFkGn2ePOAMUg-k": {
-          "text": "Incident reported at Shepard Rd & Otto Ave.",
-          "ts": 1628174205999,
-          "type": "ROOT",
-          "displayLocation": "Shepard Rd & Otto Ave"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "fc33b03b-80e8-419d-8176-f9f482839a1c",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "17b7f146-57c5-4840-bad7-24652b68682b",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Fire"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -1460,110 +1305,6 @@
       "displayStyle": "tray",
       "categories": [
         "Police Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "I-694 E & Lexington Ave N, Saint Paul, Minnesota, 55126",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1628090171000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1628088574000,
-      "hasVod": false,
-      "key": "-MgGd0sse3IW7raluizl",
-      "level": 1,
-      "location": "I-694 E & Lexington Ave N",
-      "latitude": 45.0595500483455,
-      "longitude": -93.14725992882032,
-      "neighborhood": "Saint Paul",
-      "raw": "Report of Vehicle Fire at I-694 E & Lexington Ave N, Saint Paul, Minnesota, 55126",
-      "ll": [
-        45.0595500483455,
-        -93.14725992882032
-      ],
-      "rawLocation": "I-694 E & Lexington Ave N, Saint Paul, Minnesota, 55126",
-      "title": "Report of Vehicle Fire",
-      "transcriber": "fbe9aa8e99e1bc2b26ed",
-      "ts": 1628088970000,
-      "police": "",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgGd0sse3IW7raluizl.png",
-      "updates": {
-        "-MgGd0t5FxfODfjnI96J": {
-          "text": "Firefighters have received a report of a vehicle fire.",
-          "ts": 1628088574000,
-          "type": "TEXT",
-          "displayLocation": "I-694 E & Lexington Ave N",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11524/1628088291000-4e23d681-d6b6-4357-9b47-4a45f8829c0e.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11524/1628088291000-4e23d681-d6b6-4357-9b47-4a45f8829c0e-spectrogram.jpg"
-            }
-          ]
-        },
-        "-MgGd1-kQLskpZ68yQrJ": {
-          "text": "Incident reported at I-694 E & Lexington Ave N.",
-          "ts": 1628088573999,
-          "type": "ROOT",
-          "displayLocation": "I-694 E & Lexington Ave N"
-        },
-        "-MgGe6Z58MYSjPu5HGa7": {
-          "text": "Firefighters are en route.",
-          "ts": 1628088860000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11636/1628088521000-c48dc6ea-4d29-4f19-b781-7bf8d565fa48.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11636/1628088521000-c48dc6ea-4d29-4f19-b781-7bf8d565fa48-spectrogram.jpg"
-            }
-          ]
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "a5d42c01-9eb7-4324-84f3-e1a28df0998d",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "c093f971-7b02-4446-9bf6-70bba956ba53",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Fire"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -4095,6 +3836,115 @@
       }
     },
     {
+      "address": "MN-36 E & McKnight Rd N, Saint Paul, Minnesota, 55109",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1627993787000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1627991976000,
+      "hasVod": false,
+      "key": "-MgAsXqzzMDtV1iXfUB8",
+      "level": 1,
+      "location": "MN-36 E & McKnight Rd N",
+      "latitude": 45.00860002125083,
+      "longitude": -93.00497988844522,
+      "neighborhood": "Saint Paul",
+      "raw": "Vehicle Collision With Injuries at MN-36 E & McKnight Rd N, Saint Paul, Minnesota, 55109",
+      "ll": [
+        45.00860002125083,
+        -93.00497988844522
+      ],
+      "rawLocation": "MN-36 E & McKnight Rd N, Saint Paul, Minnesota, 55109",
+      "title": "Vehicle Collision With Injuries",
+      "transcriber": "3f01f956f787bc425a8b",
+      "ts": 1627992589000,
+      "police": "",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgAsXqzzMDtV1iXfUB8.png",
+      "updates": {
+        "-MgAsXW-68fWv_6U1o4r": {
+          "text": "Incident reported at MN-36 E & McKnight Rd N.",
+          "ts": 1627991975999,
+          "type": "ROOT",
+          "displayLocation": "MN-36 E & McKnight Rd N"
+        },
+        "-MgAsXrCjV3lvf12q5Ex": {
+          "text": "Firefighters are responding to a report of a vehicle collision with possible injuries.",
+          "ts": 1627991976000,
+          "type": "TEXT",
+          "displayLocation": "MN-36 E & McKnight Rd N",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11636/1627991639000-52103c9a-058c-4fcd-afa9-75ddc19db74b.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11636/1627991639000-52103c9a-058c-4fcd-afa9-75ddc19db74b-spectrogram.jpg"
+            },
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11524/1627991556000-d68bee51-e589-4d18-8371-7f216da012a3.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11524/1627991556000-d68bee51-e589-4d18-8371-7f216da012a3-spectrogram.jpg"
+            }
+          ]
+        },
+        "-MgAusB5Hs1R1p6zCeIQ": {
+          "text": "Firefighters are on scene and investigating.",
+          "ts": 1627992587000,
+          "type": "TEXT",
+          "displayLocation": "",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11636/1627991860000-0711fd70-90b8-4a81-96a0-80799e58cfe1.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11636/1627991860000-0711fd70-90b8-4a81-96a0-80799e58cfe1-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "42bf3f03-23ab-446d-80be-3d5ca442341e",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "4e54adcc-0205-4490-b8e2-3c0f2ee9a6e1",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Traffic Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
       "address": "E 38th St & Dight Ave, Minneapolis, Minnesota, 55406",
       "broadcastRules": {
         "distanceMeters": 1609,
@@ -5331,6 +5181,206 @@
       "displayStyle": "tray",
       "categories": [
         "Robbery / Theft "
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "700 E Lake St, Minneapolis, Minnesota, 55407",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1627956813000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1627955613000,
+      "hasVod": false,
+      "key": "-Mg8hockrpzJUGU2VnX7",
+      "level": 1,
+      "location": "700 E Lake St",
+      "latitude": 44.94852298169795,
+      "longitude": -93.26486196986626,
+      "neighborhood": "Minneapolis",
+      "raw": "Report of Business Robbed by Woman With Knife at 700 E Lake St, Minneapolis, Minnesota, 55407",
+      "ll": [
+        44.94852298169795,
+        -93.26486196986626
+      ],
+      "rawLocation": "700 E Lake St, Minneapolis, Minnesota, 55407",
+      "title": "Report of Business Robbed by Woman With Knife",
+      "transcriber": "f1129ae42b45a813afe4",
+      "ts": 1627955612000,
+      "police": "MPLS PD 3",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg8hockrpzJUGU2VnX7.png",
+      "updates": {
+        "-Mg8hod0rNDFVxVGdHu4": {
+          "text": "Police have received an unconfirmed report of a business robbed by a woman armed with a knife.",
+          "ts": 1627955613000,
+          "type": "TEXT",
+          "displayLocation": "700 E Lake St",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2958/1627954784000-bf7f28e0-8be0-4d50-bb8b-ac70ede44182.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2958/1627954784000-bf7f28e0-8be0-4d50-bb8b-ac70ede44182-spectrogram.jpg"
+            },
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2954/1627954801000-bc18cbbc-00cf-4427-8d22-92607067623f.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2954/1627954801000-bc18cbbc-00cf-4427-8d22-92607067623f-spectrogram.jpg"
+            }
+          ]
+        },
+        "-Mg8hop7zksHl7rTpnbF": {
+          "text": "Incident reported at 700 E Lake St.",
+          "ts": 1627955612999,
+          "type": "ROOT",
+          "displayLocation": "700 E Lake St"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "9b06c20b-0e26-4dce-aebc-730ea78826cd",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "0ebe7384-e6fb-4fdc-b56e-09165eaef9a0",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Weapon"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "1368 Lasalle Ave, Minneapolis, Minnesota, 55403",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1627952650000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1627951002000,
+      "hasVod": false,
+      "key": "-Mg8RDzofwVQQBEo1x7s",
+      "level": 1,
+      "location": "1368 Lasalle Ave",
+      "latitude": 44.96906602055256,
+      "longitude": -93.28008803226058,
+      "neighborhood": "Minneapolis",
+      "raw": "Couch on Fire at 1368 Lasalle Ave, Minneapolis, Minnesota, 55403",
+      "ll": [
+        44.96906602055256,
+        -93.28008803226058
+      ],
+      "rawLocation": "1368 Lasalle Ave, Minneapolis, Minnesota, 55403",
+      "title": "Couch on Fire",
+      "transcriber": "f1129ae42b45a813afe4",
+      "ts": 1627951449000,
+      "police": "MPLS PD 1",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg8RDzofwVQQBEo1x7s.png",
+      "updates": {
+        "-Mg8RE-02SDW2Y76QpoW": {
+          "text": "Firefighters have received an unconfirmed report of a couch on fire.",
+          "ts": 1627951002000,
+          "type": "TEXT",
+          "displayLocation": "1368 Lasalle Ave",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627950719000-a6510b10-de28-4f74-ba89-55f526126009.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627950719000-a6510b10-de28-4f74-ba89-55f526126009-spectrogram.jpg"
+            }
+          ]
+        },
+        "-Mg8RE5FdIhXB8aygq9i": {
+          "text": "Incident reported at 1368 Lasalle Ave.",
+          "ts": 1627951001999,
+          "type": "ROOT",
+          "displayLocation": "1368 Lasalle Ave"
+        },
+        "-Mg8SwPSUY812hUdKIH1": {
+          "text": "According to the firefighters on the scene, the fire has been extinguished.",
+          "ts": 1627951450000,
+          "type": "TEXT",
+          "displayLocation": "",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627951032000-8f7f83e3-eb61-40ee-869d-94954b3310ee.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627951032000-8f7f83e3-eb61-40ee-869d-94954b3310ee-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "1c360f20-d2c4-407c-986b-0864f5ed4687",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "5a125929-c6e3-4b3b-bc6b-34fbd7042844",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Fire"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
