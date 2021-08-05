@@ -1,6 +1,762 @@
 {
   "results": [
     {
+      "address": "4061 Bethel Dr, Arden Hills, MN 55112, USA",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628131703000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628130503000,
+      "hasVod": false,
+      "key": "-MgJ7ybY3tRBJCf6Lkbt",
+      "level": 0,
+      "location": "4061 Bethel Dr",
+      "latitude": 45.06125,
+      "longitude": -93.15975,
+      "helicopter": {
+        "ident": "N118SP",
+        "heading": 294,
+        "arrivalTime": 0
+      },
+      "neighborhood": "",
+      "raw": "Active Police Helicopter (N118SP) at 4061 Bethel Dr, Arden Hills, MN 55112, USA",
+      "ll": [
+        45.06125,
+        -93.15975
+      ],
+      "rawLocation": "4061 Bethel Dr, Arden Hills, MN 55112, USA",
+      "title": "Active Police Helicopter (N118SP)",
+      "transcriber": "bot",
+      "ts": 1628130503000,
+      "police": "",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgJ7ybY3tRBJCf6Lkbt.png",
+      "updates": {
+        "-MgJ7y_ND_JlRgNpQopb": {
+          "text": "Incident reported at 4061 Bethel Dr.",
+          "ts": 1628130502999,
+          "type": "ROOT",
+          "displayLocation": "4061 Bethel Dr"
+        },
+        "-MgJ7yck9rw7UWPLLSUc": {
+          "text": "N118SP departed STP at 09:28PM CDT",
+          "ts": 1628130503000,
+          "type": "TEXT",
+          "displayLocation": "4061 Bethel Dr"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "a79d4dff-0a61-4382-8604-a32a29abae14",
+          "type": "web",
+          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/flight_data/index.html?incidentId=-MgJ7ybY3tRBJCf6Lkbt&env=PROD",
+          "title": "FLIGHT DATA",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "d1c512ea-8feb-43f6-a089-105603b9f4f0",
+          "type": "web",
+          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/helicopter_info/index.html?incidentId=-MgJ7ybY3tRBJCf6Lkbt&env=PROD",
+          "title": "HELICOPTER INFORMATION",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "901d20a1-938a-49e6-b2ae-73c1058fee06",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 2,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "319afc08-7a72-47ac-89a0-75013b8eceb1",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 3,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Helicopter"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "E 28th St & Columbus Ave, Minneapolis, Minnesota, 55407",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628131270000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628130070000,
+      "hasVod": true,
+      "key": "-MgJ6Jp6AZ9jvUfIceR3",
+      "level": 1,
+      "liveStreamers": {
+        "22a48e68da5921b7fe94": {
+          "cs": 1628129851000,
+          "ts": 1628130526000,
+          "username": "Ubetcha78",
+          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-orange-thumb.png",
+          "videoStreamId": "0dfc2e4e-2dc1-4102-9782-054de97f46e9",
+          "hlsDone": true,
+          "isOnAir": false
+        }
+      },
+      "location": "E 28th St & Columbus Ave",
+      "latitude": 44.95194003216548,
+      "longitude": -93.26389989501978,
+      "neighborhood": "Phillips West, Minneapolis",
+      "raw": "Vehicle Fire at E 28th St & Columbus Ave, Minneapolis, Minnesota, 55407",
+      "ll": [
+        44.95194003216548,
+        -93.26389989501978
+      ],
+      "rawLocation": "E 28th St & Columbus Ave, Minneapolis, Minnesota, 55407",
+      "title": "Vehicle Fire",
+      "transcriber": "d912ba8037edab003d0e",
+      "ts": 1628130069000,
+      "verticalThumbnail": "https://storage.googleapis.com/citizen-stream-capture/0dfc2e4e-2dc1-4102-9782-054de97f46e9_0009.jpg",
+      "horizontalThumbnail": "https://storage.googleapis.com/citizen-stream-capture/0dfc2e4e-2dc1-4102-9782-054de97f46e9_0009-crop.jpg",
+      "videoPreview": "https://streaming-cdn.sp0n.io/mediacache/_definst_/mp4:amazons3/media.sp0n.com/videos/0dfc2e4e-2dc1-4102-9782-054de97f46e9.mp4/playlist.m3u8?wowzaplayduration=10000&wowzaplaystart=45000",
+      "featuredStream": {
+        "image": "https://storage.googleapis.com/citizen-stream-capture/0dfc2e4e-2dc1-4102-9782-054de97f46e9_0009.jpg"
+      },
+      "preferredStream": {
+        "image": "https://storage.googleapis.com/citizen-stream-capture/0dfc2e4e-2dc1-4102-9782-054de97f46e9_0009.jpg",
+        "videoStreamId": "0dfc2e4e-2dc1-4102-9782-054de97f46e9"
+      },
+      "police": "MPLS PD 3",
+      "shareImageLive": "https://storage.googleapis.com/citizen-stream-capture/0dfc2e4e-2dc1-4102-9782-054de97f46e9_0009.jpg",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgJ6Jp6AZ9jvUfIceR3.png",
+      "updates": {
+        "-MgJ6JpOM04F3B90fRrk": {
+          "text": "CItizen user video shows a vehicle on fire near the intersection.",
+          "ts": 1628130070000,
+          "type": "TEXT",
+          "displayLocation": "E 28th St & Columbus Ave"
+        },
+        "-MgJ6Jrk4nuI8oR2dKxP": {
+          "text": "Incident reported at E 28th St & Columbus Ave.",
+          "ts": 1628130069999,
+          "type": "ROOT",
+          "displayLocation": "E 28th St & Columbus Ave"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "community",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "17fd8263-b471-4226-961e-bf150d1ceed2",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "8eb610a2-c0ff-4394-9edf-858d1067f155",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Fire"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "673 Delaware Ave, Saint Paul, Minnesota, 55107",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628130455000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628129255000,
+      "hasVod": false,
+      "key": "-MgJ3CxMH5_aE3ZRF3Rf",
+      "level": 0,
+      "location": "673 Delaware Ave",
+      "latitude": 44.92576498301969,
+      "longitude": -93.10624400764064,
+      "neighborhood": "Saint Paul",
+      "raw": "Natural Gas Odor at 673 Delaware Ave, Saint Paul, Minnesota, 55107",
+      "ll": [
+        44.92576498301969,
+        -93.10624400764064
+      ],
+      "rawLocation": "673 Delaware Ave, Saint Paul, Minnesota, 55107",
+      "title": "Natural Gas Odor",
+      "transcriber": "f833cb9f73cf459a4b8a",
+      "ts": 1628129255000,
+      "police": "SPPD Central",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgJ3CxMH5_aE3ZRF3Rf.png",
+      "updates": {
+        "-MgJ3CtN96drbNXRbAmc": {
+          "text": "Incident reported at 673 Delaware Ave.",
+          "ts": 1628129254999,
+          "type": "ROOT",
+          "displayLocation": "673 Delaware Ave"
+        },
+        "-MgJ3CxbnjNN-EXwYZiQ": {
+          "text": "Firefighters have received a report of natural gas odor.",
+          "ts": 1628129255000,
+          "type": "TEXT",
+          "displayLocation": "673 Delaware Ave",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628129143000-82b6ad00-3cc8-46c7-bcc1-ba045821de23.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628129143000-82b6ad00-3cc8-46c7-bcc1-ba045821de23-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "cba67265-cfc6-4222-ab6b-25b523a21a62",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "1f63f25d-f4b9-4be1-8757-73bfbab48c8f",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Hazardous Condition"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "2007 Queen Ave N, Minneapolis, Minnesota, 55411",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628130408000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628129208000,
+      "hasVod": false,
+      "key": "-MgJ31LSkn_olEMS3osP",
+      "level": 1,
+      "location": "2007 Queen Ave N",
+      "latitude": 44.999812014866535,
+      "longitude": -93.3097909825434,
+      "neighborhood": "Minneapolis",
+      "raw": "Gunshots Detected at 2007 Queen Ave N, Minneapolis, Minnesota, 55411",
+      "ll": [
+        44.999812014866535,
+        -93.3097909825434
+      ],
+      "rawLocation": "2007 Queen Ave N, Minneapolis, Minnesota, 55411",
+      "title": "Gunshots Detected",
+      "transcriber": "f833cb9f73cf459a4b8a",
+      "ts": 1628129207000,
+      "police": "MPLS PD 4",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgJ31LSkn_olEMS3osP.png",
+      "updates": {
+        "-MgJ31LfFX4OTmataWWo": {
+          "text": "ShotSpotter technology has detected possible gunshots in the vicinity. ShotSpotter technology uses microphones to detect and locate sounds that may be gunfire.",
+          "ts": 1628129208000,
+          "type": "TEXT",
+          "displayLocation": "2007 Queen Ave N"
+        },
+        "-MgJ31Q-GQkhNCZVkLRy": {
+          "text": "Incident reported at 2007 Queen Ave N.",
+          "ts": 1628129207999,
+          "type": "ROOT",
+          "displayLocation": "2007 Queen Ave N"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "04c7bffa-8f6f-460f-bd83-e220eed7c79e",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "c5585bfc-a713-42c2-a3f4-fc6d9f1e482a",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Gun Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "N 7th St & I-94 E, Minneapolis, Minnesota, 55411",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628130304000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628129104000,
+      "hasVod": false,
+      "key": "-MgJ2d77MYbWJAAwFi0q",
+      "level": 1,
+      "location": "N 7th St & I-94 E",
+      "latitude": 44.98768004821039,
+      "longitude": -93.2888399126422,
+      "neighborhood": "North Loop, Minneapolis",
+      "raw": "Report of Brush Fire at N 7th St & I-94 E, Minneapolis, Minnesota, 55411",
+      "ll": [
+        44.98768004821039,
+        -93.2888399126422
+      ],
+      "rawLocation": "N 7th St & I-94 E, Minneapolis, Minnesota, 55411",
+      "title": "Report of Brush Fire",
+      "transcriber": "f833cb9f73cf459a4b8a",
+      "ts": 1628129104000,
+      "police": "MPLS PD 4",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgJ2d77MYbWJAAwFi0q.png",
+      "updates": {
+        "-MgJ2d1-5aUMTRZ7lIlH": {
+          "text": "Incident reported at N 7th St & I-94 E.",
+          "ts": 1628129103999,
+          "type": "ROOT",
+          "displayLocation": "N 7th St & I-94 E"
+        },
+        "-MgJ2d7MQKqyAYDYC-YZ": {
+          "text": "Firefighters are responding to a report of a brush fire.",
+          "ts": 1628129104000,
+          "type": "TEXT",
+          "displayLocation": "N 7th St & I-94 E",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628128959000-912675ef-fcc0-4075-84a9-77c03ee4e3a6.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628128959000-912675ef-fcc0-4075-84a9-77c03ee4e3a6-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "4e37ac5d-9193-41eb-b3d7-3887978fe4ec",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "651743cc-a7a9-4e4c-8f0e-a0bcf347bb34",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Fire"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "1293 Payne Ave, Saint Paul, Minnesota, 55130",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628127728000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628126528000,
+      "hasVod": false,
+      "key": "-MgItoN6qcXaCdlAClkY",
+      "level": 0,
+      "location": "1293 Payne Ave",
+      "latitude": 44.98029999201199,
+      "longitude": -93.07387502541481,
+      "neighborhood": "Saint Paul",
+      "raw": "Natural Gas Odor at 1293 Payne Ave, Saint Paul, Minnesota, 55130",
+      "ll": [
+        44.98029999201199,
+        -93.07387502541481
+      ],
+      "rawLocation": "1293 Payne Ave, Saint Paul, Minnesota, 55130",
+      "title": "Natural Gas Odor",
+      "transcriber": "2996476a52cac1a7d64c",
+      "ts": 1628126529000,
+      "police": "SPPD Eastern",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgItoN6qcXaCdlAClkY.png",
+      "updates": {
+        "-MgIto7-N4rAHalvR1Dz": {
+          "text": "Incident reported at 1293 Payne Ave.",
+          "ts": 1628126527999,
+          "type": "ROOT",
+          "displayLocation": "1293 Payne Ave"
+        },
+        "-MgItoNKbRyY9qrw2kwc": {
+          "text": "Firefighters have received an unconfirmed report of a natural gas odor.",
+          "ts": 1628126528000,
+          "type": "TEXT",
+          "displayLocation": "1293 Payne Ave",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628126248000-d3c59d6a-f228-43c5-9fb4-44943e344c82.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628126248000-d3c59d6a-f228-43c5-9fb4-44943e344c82-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "06c98537-b51e-41a5-ba4c-070752af6449",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "5ebf99e9-3a63-49bf-abc4-fb31a13837c1",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Hazardous Condition"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "3394 Glenarden Rd, Saint Paul, Minnesota, 55112",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628125332000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628124132000,
+      "hasVod": false,
+      "key": "-MgIkfL1dhb7t6pU6EeE",
+      "level": 1,
+      "location": "3394 Glenarden Rd",
+      "latitude": 45.043944998199095,
+      "longitude": -93.16007300892848,
+      "neighborhood": "Saint Paul",
+      "raw": "Report of Wire Fire at 3394 Glenarden Rd, Saint Paul, Minnesota, 55112",
+      "ll": [
+        45.043944998199095,
+        -93.16007300892848
+      ],
+      "rawLocation": "3394 Glenarden Rd, Saint Paul, Minnesota, 55112",
+      "title": "Report of Wire Fire",
+      "transcriber": "2996476a52cac1a7d64c",
+      "ts": 1628124132000,
+      "police": "",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgIkfL1dhb7t6pU6EeE.png",
+      "updates": {
+        "-MgIkf9Vcvx0lfOYE0gr": {
+          "text": "Incident reported at 3394 Glenarden Rd.",
+          "ts": 1628124131999,
+          "type": "ROOT",
+          "displayLocation": "3394 Glenarden Rd"
+        },
+        "-MgIkfLFnal0utJUe5fG": {
+          "text": "Police have received an unconfirmed report of power lines on fire.",
+          "ts": 1628124132000,
+          "type": "TEXT",
+          "displayLocation": "3394 Glenarden Rd",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11524/1628123888000-e081fd06-14b0-41c7-9a57-b86c8e08aa7c.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11524/1628123888000-e081fd06-14b0-41c7-9a57-b86c8e08aa7c-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "723cf45f-b6dd-449b-818c-374b65d15718",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "2e6501b3-6882-4e8e-882a-4c8839768910",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Fire"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "W 40th St & Sheridan Ave S, Minneapolis, Minnesota, 55410",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628123175000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628121975000,
+      "hasVod": false,
+      "key": "-MgIcRf36YwdxEb5-C-b",
+      "level": 1,
+      "location": "W 40th St & Sheridan Ave S",
+      "latitude": 44.930470038638674,
+      "longitude": -93.31300988481986,
+      "neighborhood": "Linden Hills, Minneapolis",
+      "raw": "Downed Wires at W 40th St & Sheridan Ave S, Minneapolis, Minnesota, 55410",
+      "ll": [
+        44.930470038638674,
+        -93.31300988481986
+      ],
+      "rawLocation": "W 40th St & Sheridan Ave S, Minneapolis, Minnesota, 55410",
+      "title": "Downed Wires",
+      "transcriber": "2996476a52cac1a7d64c",
+      "ts": 1628121975000,
+      "police": "MPLS PD 5",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgIcRf36YwdxEb5-C-b.png",
+      "updates": {
+        "-MgIcRYNH7xV4OVECtjY": {
+          "text": "Incident reported at W 40th St & Sheridan Ave S.",
+          "ts": 1628121974999,
+          "type": "ROOT",
+          "displayLocation": "W 40th St & Sheridan Ave S"
+        },
+        "-MgIcRfMMiNGJfUHCi6p": {
+          "text": "Firefighters are responding to an unconfirmed report of downed wires.",
+          "ts": 1628121975000,
+          "type": "TEXT",
+          "displayLocation": "W 40th St & Sheridan Ave S",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1628121790000-96990db0-1488-4d96-9bbd-110d68b80bd8.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1628121790000-96990db0-1488-4d96-9bbd-110d68b80bd8-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "2bea792f-59ea-4fa8-b71b-8218b3241049",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "23cc26cb-887e-4af7-a998-e96f088f8bc0",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Hazardous Condition"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
       "address": "2221 Elliot Ave, Minneapolis, Minnesota, 55404",
       "broadcastRules": {
         "distanceMeters": 805,
@@ -84,6 +840,464 @@
       "displayStyle": "tray",
       "categories": [
         "Gun Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "3129 5th Ave S, Minneapolis, MN, 55408, USA",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628116086000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628114886000,
+      "hasVod": false,
+      "key": "-MgICOzESfuNMpj0luxW",
+      "level": 0,
+      "location": "3129 5th Ave S",
+      "latitude": 44.94561,
+      "longitude": -93.26882,
+      "neighborhood": "Minneapolis",
+      "raw": "Police Activity at 3129 5th Ave S, Minneapolis, MN, 55408, USA",
+      "ll": [
+        44.94561,
+        -93.26882
+      ],
+      "rawLocation": "3129 5th Ave S, Minneapolis, MN, 55408, USA",
+      "title": "Police Activity",
+      "transcriber": "85822c8c6c7775c7957f",
+      "ts": 1628114886000,
+      "police": "MPLS PD 3",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgICOzESfuNMpj0luxW.png",
+      "updates": {
+        "-MgICOpkCogjR8mfdaBQ": {
+          "text": "Incident reported at 3129 5th Ave S.",
+          "ts": 1628114885999,
+          "type": "ROOT",
+          "displayLocation": "3129 5th Ave S"
+        },
+        "-MgICOzXFI7mN_DghaU3": {
+          "text": "Citizen user footage shows police on the scene of an unspecified incident.",
+          "ts": 1628114886000,
+          "type": "TEXT",
+          "displayLocation": "3129 5th Ave S"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "community",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "4666e19e-3399-49e2-aa6a-0da226f7b378",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "cf065d52-eedf-4c53-babe-a736adfe2bd0",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Police Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "E 41st St & S 4th Ave, Minneapolis, Minnesota, 55409",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628096960000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628095760000,
+      "hasVod": false,
+      "key": "-MgH3RhY3DIhA6BoNQJQ",
+      "level": 1,
+      "location": "E 41st St & S 4th Ave",
+      "latitude": 44.92874005573276,
+      "longitude": -93.270129912193,
+      "neighborhood": "Bryant, Minneapolis",
+      "raw": "Hit-and-Run Collision With Injuries at E 41st St & S 4th Ave, Minneapolis, Minnesota, 55409",
+      "ll": [
+        44.92874005573276,
+        -93.270129912193
+      ],
+      "rawLocation": "E 41st St & S 4th Ave, Minneapolis, Minnesota, 55409",
+      "title": "Hit-and-Run Collision With Injuries",
+      "transcriber": "40596e283a7ccdb54daa",
+      "ts": 1628095761000,
+      "police": "MPLS PD 3",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgH3RhY3DIhA6BoNQJQ.png",
+      "updates": {
+        "-MgH3RP-OQ_lPDTl0rW6": {
+          "text": "Incident reported at E 41st St & S 4th Ave.",
+          "ts": 1628095759999,
+          "type": "ROOT",
+          "displayLocation": "E 41st St & S 4th Ave"
+        },
+        "-MgH3RhkMquI86aFjuEm": {
+          "text": "Police and firefighters are responding to a report of a hit-and-run collision with injuries.",
+          "ts": 1628095760000,
+          "type": "TEXT",
+          "displayLocation": "E 41st St & S 4th Ave"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "e009f6ef-9897-4482-8734-f97e94486658",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "0d114f40-a907-4a16-9701-006cbfff52d4",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Traffic Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "Parkway Dr & Nebraska Ave E, Saint Paul, Minnesota, 55106",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628096365000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628095165000,
+      "hasVod": false,
+      "key": "-MgH1AM7mIPYsSdG7bGC",
+      "level": 0,
+      "location": "Parkway Dr & Nebraska Ave E",
+      "latitude": 44.98648005304227,
+      "longitude": -93.07526994174124,
+      "neighborhood": "Payne-Phalen, Saint Paul",
+      "raw": "Police Activity at Parkway Dr & Nebraska Ave E, Saint Paul, Minnesota, 55106",
+      "ll": [
+        44.98648005304227,
+        -93.07526994174124
+      ],
+      "rawLocation": "Parkway Dr & Nebraska Ave E, Saint Paul, Minnesota, 55106",
+      "title": "Police Activity",
+      "transcriber": "40596e283a7ccdb54daa",
+      "ts": 1628095165000,
+      "police": "SPPD Eastern",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgH1AM7mIPYsSdG7bGC.png",
+      "updates": {
+        "-MgH1A873Z6fu1lC1e3Z": {
+          "text": "Incident reported at Parkway Dr & Nebraska Ave E.",
+          "ts": 1628095164999,
+          "type": "ROOT",
+          "displayLocation": "Parkway Dr & Nebraska Ave E"
+        },
+        "-MgH1AMLqkHa_lEGg-ir": {
+          "text": "Police are responding to a report of a person who may be in need of assistance.",
+          "ts": 1628095165000,
+          "type": "TEXT",
+          "displayLocation": "Parkway Dr & Nebraska Ave E"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "87e81eb7-0f8c-40a4-922e-835aef20b729",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "721e4bdf-c091-4237-b6ab-c150a837836f",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Police Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "729 E 16th St, Minneapolis, Minnesota, 55404",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628095433000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628094233000,
+      "hasVod": false,
+      "key": "-MgGybqiaTbUDV4X4nof",
+      "level": 1,
+      "location": "729 E 16th St",
+      "latitude": 44.96695801381347,
+      "longitude": -93.26352899580426,
+      "neighborhood": "Minneapolis",
+      "raw": "Report of Woman Armed With Hammer at 729 E 16th St, Minneapolis, Minnesota, 55404",
+      "ll": [
+        44.96695801381347,
+        -93.26352899580426
+      ],
+      "rawLocation": "729 E 16th St, Minneapolis, Minnesota, 55404",
+      "title": "Report of Woman Armed With Hammer",
+      "transcriber": "40596e283a7ccdb54daa",
+      "ts": 1628094234000,
+      "police": "MPLS PD 1",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgGybqiaTbUDV4X4nof.png",
+      "updates": {
+        "-MgGybacRTWNv3O6Cl_b": {
+          "text": "Incident reported at 729 E 16th St.",
+          "ts": 1628094232999,
+          "type": "ROOT",
+          "displayLocation": "729 E 16th St"
+        },
+        "-MgGybqxKeHINgFF6X1t": {
+          "text": "A 911 caller reported that a woman is possibly armed with a hammer.",
+          "ts": 1628094233000,
+          "type": "TEXT",
+          "displayLocation": "729 E 16th St"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "a00f6bf9-b003-49c2-8f65-f72c33f793ae",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "3f9832d1-6a25-43a9-92ac-4d28e5e89a14",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Weapon"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "148 Larpenteur Ave E, Saint Paul, Minnesota, 55117",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628092056000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628090265000,
+      "hasVod": false,
+      "key": "-MgGjTb1AwilECu-1lNk",
+      "level": 1,
+      "location": "148 Larpenteur Ave E",
+      "latitude": 44.9915739870591,
+      "longitude": -93.09412696077214,
+      "neighborhood": "Saint Paul",
+      "raw": "Stove Fire Causing Gas Leak at 148 Larpenteur Ave E, Saint Paul, Minnesota, 55117",
+      "ll": [
+        44.9915739870591,
+        -93.09412696077214
+      ],
+      "rawLocation": "148 Larpenteur Ave E, Saint Paul, Minnesota, 55117",
+      "title": "Stove Fire Causing Gas Leak",
+      "transcriber": "fbe9aa8e99e1bc2b26ed",
+      "ts": 1628090855000,
+      "police": "SPPD Central",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgGjTb1AwilECu-1lNk.png",
+      "updates": {
+        "-MgGjTbGZ6vrEvzRczx_": {
+          "text": "Firefighters have received a report of a house fire.",
+          "ts": 1628090265000,
+          "type": "TEXT",
+          "displayLocation": "148 Larpenteur Ave E",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628089772000-a4212c93-1797-435f-86f4-710c28db589e.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628089772000-a4212c93-1797-435f-86f4-710c28db589e-spectrogram.jpg"
+            },
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628089730000-c2d3ea59-8db8-4ef2-ae57-4cc179454430.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1628089730000-c2d3ea59-8db8-4ef2-ae57-4cc179454430-spectrogram.jpg"
+            }
+          ]
+        },
+        "-MgGjTqcLbvORoggXRj4": {
+          "text": "Incident reported at 148 Larpenteur Ave E.",
+          "ts": 1628090264999,
+          "type": "ROOT",
+          "displayLocation": "148 Larpenteur Ave E"
+        },
+        "-MgGjrwS17ZffcwH3grT": {
+          "text": "Firefighters are on the scene. They advise a stove fire which resulted in a gas leak.",
+          "ts": 1628090368000,
+          "type": "TEXT",
+          "displayLocation": "",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11642/1628089829000-f7ec7819-bb99-4587-80ed-bad3400004d3.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11642/1628089829000-f7ec7819-bb99-4587-80ed-bad3400004d3-spectrogram.jpg"
+            }
+          ]
+        },
+        "-MgGl7XvbX405wE6aiLV": {
+          "text": "Firefighters advise the gas meter has been shut off.",
+          "ts": 1628090698000,
+          "type": "TEXT",
+          "displayLocation": "",
+          "source": [
+            {
+              "type": "radio_clip",
+              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11642/1628090187000-89c3a53a-67ce-46be-87b2-bbd8040c7fb3.aac",
+              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11642/1628090187000-89c3a53a-67ce-46be-87b2-bbd8040c7fb3-spectrogram.jpg"
+            }
+          ]
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "9024700d-a4b9-40c1-8841-4196de35e7cc",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "77b02d96-f594-4663-b77d-91e03861798c",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Fire"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -783,90 +1997,6 @@
       }
     },
     {
-      "address": "Maria Ave & 7th St E, Saint Paul, Minnesota, 55106",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1628071727000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1628070527000,
-      "hasVod": false,
-      "key": "-MgFZBLG2S67SLx7cCrX",
-      "level": 0,
-      "location": "Maria Ave & 7th St E",
-      "latitude": 44.9580700532338,
-      "longitude": -93.07378994909757,
-      "neighborhood": "Dayton's Bluff, Saint Paul",
-      "raw": "Man Exposing Himself at Maria Ave & 7th St E, Saint Paul, Minnesota, 55106",
-      "ll": [
-        44.9580700532338,
-        -93.07378994909757
-      ],
-      "rawLocation": "Maria Ave & 7th St E, Saint Paul, Minnesota, 55106",
-      "title": "Man Exposing Himself",
-      "transcriber": "efd00908a0e7aabd6d1c",
-      "ts": 1628070528000,
-      "police": "SPPD Eastern",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgFZBLG2S67SLx7cCrX.png",
-      "updates": {
-        "-MgFZB-NLp1eHCvPVxOV": {
-          "text": "Incident reported at Maria Ave & 7th St E.",
-          "ts": 1628070526999,
-          "type": "ROOT",
-          "displayLocation": "Maria Ave & 7th St E"
-        },
-        "-MgFZBLU_8v0U_ZQZMon": {
-          "text": "Police are responding to a report of a man indecently exposing himself.",
-          "ts": 1628070527000,
-          "type": "TEXT",
-          "displayLocation": "Maria Ave & 7th St E"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "819c0ac2-ad6f-4d3e-9c56-22d0a7d7b277",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "8e2034a1-e09b-4506-8620-f90ededc1548",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Harassment"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
       "address": "1500 49th Ave NE, Minneapolis, Minnesota, 55421",
       "broadcastRules": {
         "distanceMeters": 805,
@@ -930,264 +2060,6 @@
         },
         {
           "id": "d810c808-aa13-4151-a2b4-1f77632c238a",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "4000 Aldrich Ave N, Minneapolis, Minnesota, 55412",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1628063156000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1628061521000,
-      "hasVod": false,
-      "key": "-MgF0pOILEMnw_U_hef1",
-      "level": 1,
-      "location": "4000 Aldrich Ave N",
-      "latitude": 45.027757992515234,
-      "longitude": -93.28908298783428,
-      "neighborhood": "Minneapolis",
-      "raw": "Gunshot Detected at 4000 Aldrich Ave N, Minneapolis, Minnesota, 55412",
-      "ll": [
-        45.027757992515234,
-        -93.28908298783428
-      ],
-      "rawLocation": "4000 Aldrich Ave N, Minneapolis, Minnesota, 55412",
-      "title": "Gunshot Detected",
-      "transcriber": "b1a726617e3c8439f899",
-      "ts": 1628061955000,
-      "police": "MPLS PD 4",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgF0pOILEMnw_U_hef1.png",
-      "updates": {
-        "-MgF0pGcidcwTpUTwv4-": {
-          "text": "Incident reported at 4000 Aldrich Ave N.",
-          "ts": 1628061520999,
-          "type": "ROOT",
-          "displayLocation": "4000 Aldrich Ave N"
-        },
-        "-MgF0pOX735SAzZ8e7-J": {
-          "text": "ShotSpotter technology, which picks up sounds like gunshots, car backfiring, and other loud noises, has detected potential gunfire.",
-          "ts": 1628061521000,
-          "type": "TEXT",
-          "displayLocation": "4000 Aldrich Ave N"
-        },
-        "-MgF2URIQP5Hva_1A0i_": {
-          "text": "Police are en route.",
-          "ts": 1628061956000,
-          "type": "TEXT",
-          "displayLocation": ""
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "088bab5f-3b97-47b1-b820-0f36d26b6536",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "d4d212ae-7966-48d2-9f86-61b550dda44c",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "3509 N 3rd St, Minneapolis, Minnesota, 55412",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1628062194000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1628060994000,
-      "hasVod": false,
-      "key": "-MgEzoa3ZwGASn88hJOP",
-      "level": 0,
-      "location": "3509 N 3rd St",
-      "latitude": 45.01866689951156,
-      "longitude": -93.2835409589695,
-      "neighborhood": "McKinley, Minneapolis",
-      "raw": "Trailer Broken Into at 3509 N 3rd St, Minneapolis, Minnesota, 55412",
-      "ll": [
-        45.01866689951156,
-        -93.2835409589695
-      ],
-      "rawLocation": "3509 N 3rd St, Minneapolis, Minnesota, 55412",
-      "title": "Trailer Broken Into",
-      "transcriber": "b1a726617e3c8439f899",
-      "ts": 1628060993000,
-      "police": "MPLS PD 4",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgEzoa3ZwGASn88hJOP.png",
-      "updates": {
-        "-MgEzoaIO5zeeE3vL1lq": {
-          "text": "Police have received an unconfirmed report of a person who was breaking into a trailer.",
-          "ts": 1628060994000,
-          "type": "TEXT",
-          "displayLocation": "3509 N 3rd St"
-        },
-        "-MgEzobFuX706OiZW0LF": {
-          "text": "Incident reported at 3509 N 3rd St.",
-          "ts": 1628060993999,
-          "type": "ROOT",
-          "displayLocation": "3509 N 3rd St"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "95ff6788-0c20-4fde-8ba0-6b64539d3309",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "09f294b7-c9cf-47c0-b3ba-5195a61f333f",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Break In"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "SE University Ave & SE 6th Ave, Minneapolis, Minnesota, 55414",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1628059029000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1628057829000,
-      "hasVod": false,
-      "key": "-MgEnjrUSvlyrf7z8Nxy",
-      "level": 1,
-      "location": "SE University Ave & SE 6th Ave",
-      "latitude": 44.98394004301352,
-      "longitude": -93.24764989933355,
-      "neighborhood": "Marcy-Holmes, Minneapolis",
-      "raw": "Three Gunshots Heard at SE University Ave & SE 6th Ave, Minneapolis, Minnesota, 55414",
-      "ll": [
-        44.98394004301352,
-        -93.24764989933355
-      ],
-      "rawLocation": "SE University Ave & SE 6th Ave, Minneapolis, Minnesota, 55414",
-      "title": "Three Gunshots Heard",
-      "transcriber": "b1a726617e3c8439f899",
-      "ts": 1628057828000,
-      "police": "MPLS PD 2",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgEnjrUSvlyrf7z8Nxy.png",
-      "updates": {
-        "-MgEnjriMYewWty8gn5A": {
-          "text": "Police have received an unconfirmed report of three gunshots heard.",
-          "ts": 1628057829000,
-          "type": "TEXT",
-          "displayLocation": "SE University Ave & SE 6th Ave"
-        },
-        "-MgEnju7z75CpNwg4zgZ": {
-          "text": "Incident reported at SE University Ave & SE 6th Ave.",
-          "ts": 1628057828999,
-          "type": "ROOT",
-          "displayLocation": "SE University Ave & SE 6th Ave"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "1ca4fb58-1f98-4ab1-bfa9-19be4b7be7a4",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "9b2b3a9a-a978-4649-a608-a48438408e51",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -2001,6 +2873,90 @@
       "displayStyle": "tray",
       "categories": [
         "Traffic Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "2031 Berkeley Ave, Saint Paul, Minnesota, 55105",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1628048762000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1628047562000,
+      "hasVod": false,
+      "key": "-MgEB_NQzgUEDMTPIbOw",
+      "level": 0,
+      "location": "2031 Berkeley Ave",
+      "latitude": 44.93363198588307,
+      "longitude": -93.18617299813134,
+      "neighborhood": "Saint Paul",
+      "raw": "House Burglarized at 2031 Berkeley Ave, Saint Paul, Minnesota, 55105",
+      "ll": [
+        44.93363198588307,
+        -93.18617299813134
+      ],
+      "rawLocation": "2031 Berkeley Ave, Saint Paul, Minnesota, 55105",
+      "title": "House Burglarized",
+      "transcriber": "b1a726617e3c8439f899",
+      "ts": 1628047562000,
+      "police": "SPPD Western",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgEB_NQzgUEDMTPIbOw.png",
+      "updates": {
+        "-MgEB_JFoH1ifePL2wJz": {
+          "text": "Incident reported at 2031 Berkeley Ave.",
+          "ts": 1628047561999,
+          "type": "ROOT",
+          "displayLocation": "2031 Berkeley Ave"
+        },
+        "-MgEB_NhL-KZx0tIs6kC": {
+          "text": "Police have received an unconfirmed report of a house burglary.",
+          "ts": 1628047562000,
+          "type": "TEXT",
+          "displayLocation": "2031 Berkeley Ave"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "496e992b-4617-4fa8-bc71-b2d8351c1f6e",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "20c6daa6-21a6-4887-941f-07444716d383",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Break In"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -3428,6 +4384,90 @@
       }
     },
     {
+      "address": "1563 Charles Ave, Saint Paul, Minnesota, 55104",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1627985352000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1627984152000,
+      "hasVod": false,
+      "key": "-MgAPgS7BzECf9f37i_2",
+      "level": 1,
+      "location": "1563 Charles Ave",
+      "latitude": 44.95768599443031,
+      "longitude": -93.16630000861655,
+      "neighborhood": "Saint Paul",
+      "raw": "Report of Man Armed With Gun at 1563 Charles Ave, Saint Paul, Minnesota, 55104",
+      "ll": [
+        44.95768599443031,
+        -93.16630000861655
+      ],
+      "rawLocation": "1563 Charles Ave, Saint Paul, Minnesota, 55104",
+      "title": "Report of Man Armed With Gun",
+      "transcriber": "82b8abefe9b58bfb00b5",
+      "ts": 1627984152000,
+      "police": "SPPD Western",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MgAPgS7BzECf9f37i_2.png",
+      "updates": {
+        "-MgAPgM-IQDDSR6TRmY4": {
+          "text": "Incident reported at 1563 Charles Ave.",
+          "ts": 1627984151999,
+          "type": "ROOT",
+          "displayLocation": "1563 Charles Ave"
+        },
+        "-MgAPgSMsFYLqaSGofUs": {
+          "text": "Police have received an unconfirmed report of a man armed with a gun.",
+          "ts": 1627984152000,
+          "type": "TEXT",
+          "displayLocation": "1563 Charles Ave"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "dacc9a05-351f-423b-a1c0-858aecd3c15f",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "a0b49a0c-4d03-49dd-afb4-0f8d950c907d",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "displayStyle": "tray",
+      "categories": [
+        "Gun Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
       "address": "E 38th St & Dight Ave, Minneapolis, Minnesota, 55406",
       "broadcastRules": {
         "distanceMeters": 1609,
@@ -4168,1232 +5208,6 @@
       "displayStyle": "tray",
       "categories": [
         "Fire / EMS Activity"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "2521 Polk St NE, Minneapolis, Minnesota, 55418",
-      "broadcastRules": {
-        "distanceMeters": 1609,
-        "deadline": 1627967217000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627962799000,
-      "hasVod": false,
-      "key": "-Mg98Ef5B0rMJwWfEv3j",
-      "level": 2,
-      "location": "2521 Polk St NE",
-      "latitude": 45.0139420176921,
-      "longitude": -93.24525502195829,
-      "neighborhood": "Minneapolis",
-      "raw": "Garage Fire at 2521 Polk St NE, Minneapolis, Minnesota, 55418",
-      "ll": [
-        45.0139420176921,
-        -93.24525502195829
-      ],
-      "rawLocation": "2521 Polk St NE, Minneapolis, Minnesota, 55418",
-      "title": "Garage Fire",
-      "transcriber": "82b8abefe9b58bfb00b5",
-      "ts": 1627963618000,
-      "police": "MPLS PD 2",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg98Ef5B0rMJwWfEv3j.png",
-      "updates": {
-        "-Mg98EDNM9HPcNAXWafj": {
-          "text": "Incident reported at 2531 Polk St NE.",
-          "ts": 1627962798999,
-          "type": "ROOT",
-          "displayLocation": "2531 Polk St NE"
-        },
-        "-Mg98EfMnjevD0bVrC-S": {
-          "text": "Firefighters have received an unconfirmed report of a garage on fire.",
-          "ts": 1627962799000,
-          "type": "TEXT",
-          "displayLocation": "2531 Polk St NE",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627962640000-b6b18d36-8edd-45e2-bb52-920c4e91bba2.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627962640000-b6b18d36-8edd-45e2-bb52-920c4e91bba2-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg9A7KjCMSpT3t6cRjw": {
-          "text": "Firefighters on the scene have advised visible flames emanating from the garage's rooftop. They are working to extinguish it.",
-          "ts": 1627963294000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627962842000-b8ae8c53-3ee9-45ff-803b-7c55cbe1731b.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627962842000-b8ae8c53-3ee9-45ff-803b-7c55cbe1731b-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg9BLvcYQ7kX6Q3e9km": {
-          "text": "The address reported for this incident has changed to 2521 Polk St NE.",
-          "ts": 1627963616999,
-          "type": "LOCATION_CHANGE",
-          "displayLocation": "2521 Polk St NE"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "red",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "5f13137a-1762-424b-9b52-2883168d3ac7",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "b7a0c91c-0852-4734-a640-18f8dd944de6",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Fire"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "Clifton Pl & Oak Grove St, Minneapolis, Minnesota, 55403",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627962804000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627961604000,
-      "hasVod": true,
-      "key": "-Mg93fPe-ocGH9tI7Ffm",
-      "level": 0,
-      "liveStreamers": {
-        "392d5bc5e22be4047566": {
-          "cs": 1627962209000,
-          "ts": 1627962283000,
-          "username": "ebanski2000",
-          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-green-thumb.png",
-          "videoStreamId": "f2ec31ca-4b0f-4952-9fff-675b364e24e4",
-          "hlsDone": true,
-          "isOnAir": false
-        },
-        "a2e99d272c9c1f91db56": {
-          "cs": 1627962326000,
-          "ts": 1627962592000,
-          "username": "ogreseth",
-          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-charcoal-thumb.png",
-          "videoStreamId": "b18545be-da77-45cb-8fd4-bcb9fb583c53",
-          "hlsDone": true,
-          "isOnAir": false
-        }
-      },
-      "location": "Clifton Pl & Oak Grove St",
-      "latitude": 44.967610042061466,
-      "longitude": -93.28551992461342,
-      "neighborhood": "Loring Park, Minneapolis",
-      "raw": "Police Activity at Clifton Pl & Oak Grove St, Minneapolis, Minnesota, 55403",
-      "ll": [
-        44.967610042061466,
-        -93.28551992461342
-      ],
-      "rawLocation": "Clifton Pl & Oak Grove St, Minneapolis, Minnesota, 55403",
-      "title": "Police Activity",
-      "transcriber": "6695f652eecd1d2be186",
-      "ts": 1627961603000,
-      "videoPreview": "https://streaming-cdn.sp0n.io/mediacache/_definst_/mp4:amazons3/media.sp0n.com/videos/b18545be-da77-45cb-8fd4-bcb9fb583c53.mp4/playlist.m3u8?wowzaplayduration=10000&wowzaplaystart=0",
-      "preferredStream": {
-        "image": "https://storage.googleapis.com/citizen-stream-capture/b18545be-da77-45cb-8fd4-bcb9fb583c53_0002.jpg",
-        "videoStreamId": "b18545be-da77-45cb-8fd4-bcb9fb583c53"
-      },
-      "police": "MPLS PD 1",
-      "shareImageLive": "https://storage.googleapis.com/citizen-stream-capture/b18545be-da77-45cb-8fd4-bcb9fb583c53_0002.jpg",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg93fPe-ocGH9tI7Ffm.png",
-      "updates": {
-        "-Mg93fPxyh6zRMmreDt9": {
-          "text": "Citizen user video shows police responding to a nearby incident.",
-          "ts": 1627961604000,
-          "type": "TEXT",
-          "displayLocation": "Clifton Pl & Oak Grove St"
-        },
-        "-Mg93fTV-GE_zvBqOEmD": {
-          "text": "Incident reported at Clifton Pl & Oak Grove St.",
-          "ts": 1627961603999,
-          "type": "ROOT",
-          "displayLocation": "Clifton Pl & Oak Grove St"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "community",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "65207251-14f6-4f53-93a1-11877fc9a588",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "4163888d-cd5f-48e3-83aa-523e662c876f",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Police Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "E 57th St & 31st Ave S, Minneapolis, Minnesota, 55417",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627961428000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627960228000,
-      "hasVod": false,
-      "key": "-Mg8zQvdCZ0fNRUIbWzd",
-      "level": 1,
-      "location": "E 57th St & 31st Ave S",
-      "latitude": 44.90058004618649,
-      "longitude": -93.22724993956614,
-      "neighborhood": "Wenonah, Minneapolis",
-      "raw": "Five Shots Heard at E 57th St & 31st Ave S, Minneapolis, Minnesota, 55417",
-      "ll": [
-        44.90058004618649,
-        -93.22724993956614
-      ],
-      "rawLocation": "E 57th St & 31st Ave S, Minneapolis, Minnesota, 55417",
-      "title": "Five Shots Heard",
-      "transcriber": "82b8abefe9b58bfb00b5",
-      "ts": 1627960229000,
-      "police": "MPLS PD 3",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg8zQvdCZ0fNRUIbWzd.png",
-      "updates": {
-        "-Mg8zQXVUUlBfzH4Ru4j": {
-          "text": "Incident reported at E 57th St & 31st Ave S.",
-          "ts": 1627960227999,
-          "type": "ROOT",
-          "displayLocation": "E 57th St & 31st Ave S"
-        },
-        "-Mg8zQvwxdZ4xCxR8Nst": {
-          "text": "Police have received an unconfirmed report of five shots heard.",
-          "ts": 1627960228000,
-          "type": "TEXT",
-          "displayLocation": "E 57th St & 31st Ave S"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "f0154e62-304d-4d88-b1c0-b1dadcfc334a",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "6720f412-adf2-449f-9994-ddef605f0fd4",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "622 5th St SE, Minneapolis, MN, 55414, USA",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627959087000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627957887000,
-      "hasVod": true,
-      "key": "-Mg8qV5i--d-QwgGlAYw",
-      "level": 0,
-      "liveStreamers": {
-        "5aaf075b2efdae3d7f04": {
-          "cs": 1627957735000,
-          "ts": 1627957946000,
-          "username": "Juber035",
-          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-blue-dark-thumb.png",
-          "videoStreamId": "745ed1d8-ae44-4b30-b532-c4ddd0d97faf",
-          "hlsDone": true,
-          "isOnAir": false
-        }
-      },
-      "location": "622 5th St SE",
-      "latitude": 44.98503,
-      "longitude": -93.24501,
-      "neighborhood": "Minneapolis",
-      "raw": "Firefighter Activity at 622 5th St SE, Minneapolis, MN, 55414, USA",
-      "ll": [
-        44.98503,
-        -93.24501
-      ],
-      "rawLocation": "622 5th St SE, Minneapolis, MN, 55414, USA",
-      "title": "Firefighter Activity",
-      "transcriber": "6695f652eecd1d2be186",
-      "ts": 1627957887000,
-      "videoPreview": "https://streaming-cdn.sp0n.io/mediacache/_definst_/mp4:amazons3/media.sp0n.com/videos/745ed1d8-ae44-4b30-b532-c4ddd0d97faf.mp4/playlist.m3u8?wowzaplayduration=10000&wowzaplaystart=0",
-      "preferredStream": {
-        "image": "https://storage.googleapis.com/citizen-stream-capture/745ed1d8-ae44-4b30-b532-c4ddd0d97faf_0002.jpg",
-        "videoStreamId": "745ed1d8-ae44-4b30-b532-c4ddd0d97faf"
-      },
-      "police": "MPLS PD 2",
-      "shareImageLive": "https://storage.googleapis.com/citizen-stream-capture/745ed1d8-ae44-4b30-b532-c4ddd0d97faf_0002.jpg",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg8qV5i--d-QwgGlAYw.png",
-      "updates": {
-        "-Mg8qV-NoZffb7fqRbr9": {
-          "text": "Incident reported at 622 5th St SE.",
-          "ts": 1627957886999,
-          "type": "ROOT",
-          "displayLocation": "622 5th St SE"
-        },
-        "-Mg8qV6-eQxB8HRQamBP": {
-          "text": "Citizen user video shows firefighters responding to an unspecified incident.",
-          "ts": 1627957887000,
-          "type": "TEXT",
-          "displayLocation": "622 5th St SE"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "community",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "0a0e5f39-4dcf-4bdd-8816-6893c51f9a82",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "0b6fcfcf-189a-461e-a33a-0b2ca05aa1bd",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Fire / EMS Activity"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "4020 E Lake St, Minneapolis, Minnesota, 55406",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627957610000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627956410000,
-      "hasVod": false,
-      "key": "-Mg8krAlCpbLRPkDxrW9",
-      "level": 0,
-      "location": "4020 E Lake St",
-      "latitude": 44.948592006670594,
-      "longitude": -93.21429000851433,
-      "neighborhood": "Minneapolis",
-      "raw": "Vehicle Stolen at Hi-Lo Diner at 4020 E Lake St, Minneapolis, Minnesota, 55406",
-      "ll": [
-        44.948592006670594,
-        -93.21429000851433
-      ],
-      "rawLocation": "4020 E Lake St, Minneapolis, Minnesota, 55406",
-      "title": "Vehicle Stolen at Hi-Lo Diner",
-      "transcriber": "f1129ae42b45a813afe4",
-      "ts": 1627956409000,
-      "police": "MPLS PD 3",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg8krAlCpbLRPkDxrW9.png",
-      "updates": {
-        "-Mg8krB1dPaY7Vaemqio": {
-          "text": "Police have received a report of a stolen vehicle at Hi-Lo Diner. The suspect was last seen going east bound.",
-          "ts": 1627956410000,
-          "type": "TEXT",
-          "displayLocation": "4020 E Lake St",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2954/1627955866000-b2aec21f-bb71-4fde-b8b2-9d3e3e7e74d5.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2954/1627955866000-b2aec21f-bb71-4fde-b8b2-9d3e3e7e74d5-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg8krPFXYcuQEJhAPeX": {
-          "text": "Incident reported at 4020 E Lake St.",
-          "ts": 1627956409999,
-          "type": "ROOT",
-          "displayLocation": "4020 E Lake St"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "9c4847b4-f0ee-4295-914d-f4c3230f5cf5",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "150ace0d-ca3f-4978-98df-1659f86cd5d0",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Robbery / Theft "
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "700 E Lake St, Minneapolis, Minnesota, 55407",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627956813000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627955613000,
-      "hasVod": false,
-      "key": "-Mg8hockrpzJUGU2VnX7",
-      "level": 1,
-      "location": "700 E Lake St",
-      "latitude": 44.94852298169795,
-      "longitude": -93.26486196986626,
-      "neighborhood": "Minneapolis",
-      "raw": "Report of Business Robbed by Woman With Knife at 700 E Lake St, Minneapolis, Minnesota, 55407",
-      "ll": [
-        44.94852298169795,
-        -93.26486196986626
-      ],
-      "rawLocation": "700 E Lake St, Minneapolis, Minnesota, 55407",
-      "title": "Report of Business Robbed by Woman With Knife",
-      "transcriber": "f1129ae42b45a813afe4",
-      "ts": 1627955612000,
-      "police": "MPLS PD 3",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg8hockrpzJUGU2VnX7.png",
-      "updates": {
-        "-Mg8hod0rNDFVxVGdHu4": {
-          "text": "Police have received an unconfirmed report of a business robbed by a woman armed with a knife.",
-          "ts": 1627955613000,
-          "type": "TEXT",
-          "displayLocation": "700 E Lake St",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2958/1627954784000-bf7f28e0-8be0-4d50-bb8b-ac70ede44182.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2958/1627954784000-bf7f28e0-8be0-4d50-bb8b-ac70ede44182-spectrogram.jpg"
-            },
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2954/1627954801000-bc18cbbc-00cf-4427-8d22-92607067623f.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-2954/1627954801000-bc18cbbc-00cf-4427-8d22-92607067623f-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg8hop7zksHl7rTpnbF": {
-          "text": "Incident reported at 700 E Lake St.",
-          "ts": 1627955612999,
-          "type": "ROOT",
-          "displayLocation": "700 E Lake St"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "9b06c20b-0e26-4dce-aebc-730ea78826cd",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "0ebe7384-e6fb-4fdc-b56e-09165eaef9a0",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Weapon"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "1368 Lasalle Ave, Minneapolis, Minnesota, 55403",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627952650000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627951002000,
-      "hasVod": false,
-      "key": "-Mg8RDzofwVQQBEo1x7s",
-      "level": 1,
-      "location": "1368 Lasalle Ave",
-      "latitude": 44.96906602055256,
-      "longitude": -93.28008803226058,
-      "neighborhood": "Minneapolis",
-      "raw": "Couch on Fire at 1368 Lasalle Ave, Minneapolis, Minnesota, 55403",
-      "ll": [
-        44.96906602055256,
-        -93.28008803226058
-      ],
-      "rawLocation": "1368 Lasalle Ave, Minneapolis, Minnesota, 55403",
-      "title": "Couch on Fire",
-      "transcriber": "f1129ae42b45a813afe4",
-      "ts": 1627951449000,
-      "police": "MPLS PD 1",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg8RDzofwVQQBEo1x7s.png",
-      "updates": {
-        "-Mg8RE-02SDW2Y76QpoW": {
-          "text": "Firefighters have received an unconfirmed report of a couch on fire.",
-          "ts": 1627951002000,
-          "type": "TEXT",
-          "displayLocation": "1368 Lasalle Ave",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627950719000-a6510b10-de28-4f74-ba89-55f526126009.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627950719000-a6510b10-de28-4f74-ba89-55f526126009-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg8RE5FdIhXB8aygq9i": {
-          "text": "Incident reported at 1368 Lasalle Ave.",
-          "ts": 1627951001999,
-          "type": "ROOT",
-          "displayLocation": "1368 Lasalle Ave"
-        },
-        "-Mg8SwPSUY812hUdKIH1": {
-          "text": "According to the firefighters on the scene, the fire has been extinguished.",
-          "ts": 1627951450000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627951032000-8f7f83e3-eb61-40ee-869d-94954b3310ee.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-3016/1627951032000-8f7f83e3-eb61-40ee-869d-94954b3310ee-spectrogram.jpg"
-            }
-          ]
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "1c360f20-d2c4-407c-986b-0864f5ed4687",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "5a125929-c6e3-4b3b-bc6b-34fbd7042844",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Fire"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "828 Hazel St N, Saint Paul, Minnesota, 55119",
-      "broadcastRules": {
-        "distanceMeters": 1609,
-        "deadline": 1627964256000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627944599000,
-      "hasVod": true,
-      "key": "-Mg82m5IoAiyTZ0ab07m",
-      "level": 2,
-      "liveStreamers": {
-        "b40927dd23a8b9c4b4b8": {
-          "cs": 1627955694000,
-          "ts": 1627955765000,
-          "username": "expertdrfrozone",
-          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-blue-thumb.png",
-          "videoStreamId": "af9b2e0f-d885-442c-83c1-4c96236608e3",
-          "hlsDone": true,
-          "isOnAir": false
-        },
-        "c88a8b66769a7849b99a": {
-          "cs": 1627944997000,
-          "ts": 1627945187000,
-          "username": "Baseball87",
-          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-yellow-dark-thumb.png",
-          "videoStreamId": "487beec8-31ef-4489-85d0-ba11b2be0a37",
-          "hlsDone": true,
-          "isOnAir": false
-        },
-        "f2f2856b97d8cf90e72b": {
-          "cs": 1627947026000,
-          "ts": 1627947069000,
-          "username": "elise1017",
-          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-orange-dark-thumb.png",
-          "videoStreamId": "23a8fd00-8008-42b8-808d-33150ad042b9",
-          "hlsDone": true,
-          "isOnAir": false
-        }
-      },
-      "location": "828 Hazel St N",
-      "latitude": 44.966256993341375,
-      "longitude": -93.01786999824358,
-      "neighborhood": "Saint Paul",
-      "raw": "Person Fatally Shot at 828 Hazel St N, Saint Paul, Minnesota, 55119",
-      "ll": [
-        44.966256993341375,
-        -93.01786999824358
-      ],
-      "rawLocation": "828 Hazel St N, Saint Paul, Minnesota, 55119",
-      "title": "Person Fatally Shot",
-      "transcriber": "d926676935f702b0ee5d",
-      "ts": 1627960656000,
-      "verticalThumbnail": "https://storage.googleapis.com/citizen-stream-capture/6a1524cd-ffe7-4aed-b69b-fd1970d797d6_0003.jpg",
-      "horizontalThumbnail": "https://storage.googleapis.com/citizen-stream-capture/6a1524cd-ffe7-4aed-b69b-fd1970d797d6_0003.jpg",
-      "videoPreview": "https://streaming-cdn.sp0n.io/mediacache/_definst_/mp4:amazons3/media.sp0n.com/videos/6a1524cd-ffe7-4aed-b69b-fd1970d797d6.mp4/playlist.m3u8?wowzaplayduration=10000&wowzaplaystart=15000",
-      "featuredStream": {
-        "image": "https://storage.googleapis.com/citizen-stream-capture/6a1524cd-ffe7-4aed-b69b-fd1970d797d6_0003.jpg"
-      },
-      "preferredStream": {
-        "image": "https://storage.googleapis.com/citizen-stream-capture/d54b5b64-7537-4725-913f-f5f5f0ee158b_0015.jpg",
-        "videoStreamId": "d54b5b64-7537-4725-913f-f5f5f0ee158b"
-      },
-      "police": "SPPD Eastern",
-      "shareImageLive": "https://storage.googleapis.com/citizen-stream-capture/af9b2e0f-d885-442c-83c1-4c96236608e3_0002.jpg",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg82m5IoAiyTZ0ab07m.png",
-      "updates": {
-        "-Mg82m5W1t6JQPrECC9j": {
-          "text": "Police are responding to an unconfirmed 911 report of two men shooting at each other.",
-          "ts": 1627944599000,
-          "type": "TEXT",
-          "displayLocation": "828 Hazel St N"
-        },
-        "-Mg82nrNtvXn37e013DS": {
-          "text": "Incident reported at 828 Hazel St N.",
-          "ts": 1627944598999,
-          "type": "ROOT",
-          "displayLocation": "828 Hazel St N"
-        },
-        "-Mg83Ags4nKawLef_15A": {
-          "text": "Police are on scene and are shutting down the parking lot.",
-          "ts": 1627944704000,
-          "type": "TEXT",
-          "displayLocation": ""
-        },
-        "-Mg842BVUelDPp2YA9zs": {
-          "text": "Police on scene have located shell casings.",
-          "ts": 1627944931000,
-          "type": "TEXT",
-          "displayLocation": ""
-        },
-        "-Mg8UtLe91S54DFLQjkj": {
-          "text": "According to a Tweet from the Saint Paul Police Department Twitter page, a person was fatally shot.",
-          "ts": 1627951962000,
-          "type": "TEXT",
-          "displayLocation": ""
-        },
-        "-Mg9035Oyq61DJJWn8dH": {
-          "text": "Police are searching for a suspect after the late-afternoon shooting, according to a statement provided by the SPPD. A Minnesota State Patrol helicopter was canvassing for this suspect while specialized units collect evidence at the crime scene.",
-          "ts": 1627960656000,
-          "type": "TEXT",
-          "displayLocation": ""
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "red",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "f13b1ecf-2373-4413-b0d9-73ca1e138f26",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "04efcfa9-5354-460e-9748-d7f5c2e6e37e",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "206 Airport Rd, St Paul, MN 55107, USA",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627950865000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627944548000,
-      "hasVod": false,
-      "key": "-Mg82bJET7cmHQClhXcA",
-      "level": 0,
-      "location": "206 Airport Rd",
-      "latitude": 44.93958,
-      "longitude": -93.06826,
-      "helicopter": {
-        "ident": "N118SP",
-        "heading": 326,
-        "arrivalTime": 1627949535
-      },
-      "neighborhood": "",
-      "raw": "Landed Police Helicopter at 206 Airport Rd, St Paul, MN 55107, USA",
-      "ll": [
-        44.93958,
-        -93.06826
-      ],
-      "rawLocation": "206 Airport Rd, St Paul, MN 55107, USA",
-      "title": "Landed Police Helicopter",
-      "transcriber": "bot",
-      "ts": 1627949664000,
-      "police": "SPPD Central",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg82bJET7cmHQClhXcA.png",
-      "updates": {
-        "-Mg82bKP-LtMw52tOW0F": {
-          "text": "N118SP departed STP at 05:48PM CDT",
-          "ts": 1627944548000,
-          "type": "TEXT",
-          "displayLocation": "206 Airport Rd"
-        },
-        "-Mg82bPVNxks19fTPM73": {
-          "text": "Incident reported at 206 Airport Rd.",
-          "ts": 1627944547999,
-          "type": "ROOT",
-          "displayLocation": "206 Airport Rd"
-        },
-        "-Mg8M7_8cPKoTII4E9Lo": {
-          "text": "Helicopter has landed at 8:14PM",
-          "ts": 1627949665000,
-          "type": "TEXT",
-          "displayLocation": ""
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "166fb693-a177-41ec-8a12-7ef36698e851",
-          "type": "web",
-          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/flight_data/index.html?incidentId=-Mg82bJET7cmHQClhXcA&env=PROD",
-          "title": "FLIGHT DATA",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "3706a692-787f-44f0-8d25-b603ff8cd1ca",
-          "type": "web",
-          "url": "https://assets.citizen.com/module-template-assets/helicopter_modules/helicopter_info/index.html?incidentId=-Mg82bJET7cmHQClhXcA&env=PROD",
-          "title": "HELICOPTER INFORMATION",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "d0733cf7-26f3-4ecf-afe7-fee974ec5e4f",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 2,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "adf63d13-a595-4bd5-8835-bc04988d1073",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 3,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Helicopter"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "1544 University Ave W, Saint Paul, Minnesota, 55104",
-      "broadcastRules": {
-        "distanceMeters": 1609,
-        "deadline": 1627943579000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627938740000,
-      "hasVod": false,
-      "key": "-Mg7hSRMwR-SuCZs9YDC",
-      "level": 2,
-      "location": "1544 University Ave W",
-      "latitude": 44.95534199520728,
-      "longitude": -93.1640000143852,
-      "neighborhood": "Saint Paul",
-      "raw": "Building Fire at 1544 University Ave W, Saint Paul, Minnesota, 55104",
-      "ll": [
-        44.95534199520728,
-        -93.1640000143852
-      ],
-      "rawLocation": "1544 University Ave W, Saint Paul, Minnesota, 55104",
-      "title": "Building Fire",
-      "transcriber": "f1129ae42b45a813afe4",
-      "ts": 1627939978000,
-      "police": "SPPD Western",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg7hSRMwR-SuCZs9YDC.png",
-      "updates": {
-        "-Mg7hSRV8RVbPG6Xdto_": {
-          "text": "Incident reported at 1544 University Ave W.",
-          "ts": 1627938739999,
-          "type": "ROOT",
-          "displayLocation": "1544 University Ave W"
-        },
-        "-Mg7hSRZAYdSX1BPb1Jt": {
-          "text": "Firefighters have received a report of smoke odor in the area.",
-          "ts": 1627938740000,
-          "type": "TEXT",
-          "displayLocation": "1544 University Ave W",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1627938528000-7a142cc2-842c-43d1-a557-8abd9e88f117.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11522/1627938528000-7a142cc2-842c-43d1-a557-8abd9e88f117-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg7iIZvpl2hgnkeNk-n": {
-          "text": "A 911 caller reported a gray and black smoke emanating from a building.",
-          "ts": 1627938961000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938675000-d589b9e2-9505-4c01-a8e5-f32ed016d8d6.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938675000-d589b9e2-9505-4c01-a8e5-f32ed016d8d6-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg7jHhLsriFmzg726aa": {
-          "text": "Firefighters on the scene state there is light smoke emanating from the building. Firefighters are investigating.",
-          "ts": 1627939220000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938779000-e505d94a-83d4-49eb-89d7-3292f015de06.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938779000-e505d94a-83d4-49eb-89d7-3292f015de06-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg7jsILbF5J5slU1unl": {
-          "text": "Firefighters advise there are no injuries.",
-          "ts": 1627939374000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938954000-79d7ef9b-7e59-4894-8c69-a25caa41ec96.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938954000-79d7ef9b-7e59-4894-8c69-a25caa41ec96-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg7kSaL1AMBCGmb3yzI": {
-          "text": "Firefighters on the scene have confirmed a building fire.",
-          "ts": 1627939527000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938982000-1620349a-5f1f-444e-b781-2dd665eda431.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938982000-1620349a-5f1f-444e-b781-2dd665eda431-spectrogram.jpg"
-            },
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938954000-79d7ef9b-7e59-4894-8c69-a25caa41ec96.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627938954000-79d7ef9b-7e59-4894-8c69-a25caa41ec96-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg7lLwAS3GB4B69V55b": {
-          "text": "Firefighters are working to control the fire.",
-          "ts": 1627939762000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627939124000-2f0460fe-5c23-466d-8fb5-665decd32b8f.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627939124000-2f0460fe-5c23-466d-8fb5-665decd32b8f-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg7mAtQRtXCjkq-r3zP": {
-          "text": "The fire has been extinguished, according to the firefighters.",
-          "ts": 1627939979000,
-          "type": "TEXT",
-          "displayLocation": "",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627939331000-b534ef31-6d1d-4948-ac6c-48a5b6c69fa3.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11638/1627939331000-b534ef31-6d1d-4948-ac6c-48a5b6c69fa3-spectrogram.jpg"
-            }
-          ]
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "red",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "d204a634-9054-4370-a9b5-838bec55f9f3",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "7d0f65d6-c00b-4520-8f2c-207be07f6dbd",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Fire"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "1150 Montreal Ave, Saint Paul, Minnesota, 55116",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1627936131000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1627934931000,
-      "hasVod": false,
-      "key": "-Mg7TtoseIHKOq4lrQvQ",
-      "level": 1,
-      "location": "1150 Montreal Ave",
-      "latitude": 44.91218898208447,
-      "longitude": -93.14873003081826,
-      "neighborhood": "Saint Paul",
-      "raw": "Group of Teenage Men Fighting at 1150 Montreal Ave, Saint Paul, Minnesota, 55116",
-      "ll": [
-        44.91218898208447,
-        -93.14873003081826
-      ],
-      "rawLocation": "1150 Montreal Ave, Saint Paul, Minnesota, 55116",
-      "title": "Group of Teenage Men Fighting",
-      "transcriber": "d926676935f702b0ee5d",
-      "ts": 1627934924000,
-      "police": "SPPD Central",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mg7TtoseIHKOq4lrQvQ.png",
-      "updates": {
-        "-Mg7Ttp5jjRKZLM35mF-": {
-          "text": "Police are responding to an unconfirmed 911 report of a group of teenage men fighting. It is reported they left in a black Mazda.",
-          "ts": 1627934931000,
-          "type": "TEXT",
-          "displayLocation": "1150 Montreal Ave",
-          "source": [
-            {
-              "type": "radio_clip",
-              "resource_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11560/1627934666000-9716713b-ca2f-4a5b-b9d3-1f969a30b8dc.aac",
-              "spectrogram_url": "https://storage.googleapis.com/citizen-production/waveguide/9079d6e7804a1268f87a9ca45250721d/US-MN-MSP/40F-11560/1627934666000-9716713b-ca2f-4a5b-b9d3-1f969a30b8dc-spectrogram.jpg"
-            }
-          ]
-        },
-        "-Mg7TvVsfhxF6I639uV6": {
-          "text": "Incident reported at 1150 Montreal Ave.",
-          "ts": 1627934930999,
-          "type": "ROOT",
-          "displayLocation": "1150 Montreal Ave"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "49218a76-7885-4f3d-807b-ddd9504c1905",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "17ddc86d-608a-417a-b71f-d5d2b2da04d0",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "displayStyle": "tray",
-      "categories": [
-        "Assault / Fight"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
