@@ -1,44 +1,61 @@
 {
   "results": [
     {
-      "address": "S 12th Ave & S Washington Ave, Minneapolis, Minnesota, 55415",
+      "address": "316 12th Ave SE, Minneapolis, MN, 55414, USA",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1647143205000
+        "deadline": 1647143396000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1647142005000,
-      "hasVod": false,
-      "key": "-My0J5qyWD9omHERcTgP",
+      "cs": 1647142196000,
+      "hasVod": true,
+      "key": "-My0JpLD_BGvN2mfwQy3",
       "level": 0,
-      "location": "S 12th Ave & S Washington Ave",
-      "latitude": 44.97475004055292,
-      "longitude": -93.25183992891192,
-      "neighborhood": "Downtown East, Minneapolis",
-      "raw": "Police Activity at S 12th Ave & S Washington Ave, Minneapolis, Minnesota, 55415",
+      "liveStreamers": {
+        "48e8de6a6a949f56ec6d": {
+          "cs": 1647142170000,
+          "ts": 1647142284000,
+          "username": "hhanson",
+          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-yellow-dark-thumb.png",
+          "videoStreamId": "mux:BjM1S6HhaCrBgMQKt1ummLrRu7MaCTq8B00tvQdsv00Bc",
+          "hlsDone": true,
+          "isOnAir": false
+        }
+      },
+      "location": "316 12th Ave SE",
+      "latitude": 44.98096,
+      "longitude": -93.2387,
+      "neighborhood": "Minneapolis",
+      "raw": "Police Activity at 316 12th Ave SE, Minneapolis, MN, 55414, USA",
       "ll": [
-        44.97475004055292,
-        -93.25183992891192
+        44.98096,
+        -93.2387
       ],
-      "rawLocation": "S 12th Ave & S Washington Ave, Minneapolis, Minnesota, 55415",
+      "rawLocation": "316 12th Ave SE, Minneapolis, MN, 55414, USA",
       "title": "Police Activity",
-      "transcriber": "26fed5b6fea6a2f08b4a",
-      "ts": 1647142006000,
-      "police": "MPLS PD 1",
+      "transcriber": "6695f652eecd1d2be186",
+      "ts": 1647142196000,
+      "videoPreview": "https://streaming-cdn.sp0n.io/mediacache/_definst_/mp4:amazons3/media.sp0n.com/videos/mux:BjM1S6HhaCrBgMQKt1ummLrRu7MaCTq8B00tvQdsv00Bc.mp4/playlist.m3u8?wowzaplayduration=10000&wowzaplaystart=0",
+      "preferredStream": {
+        "image": "https://storage.googleapis.com/citizen-stream-capture/mux:BjM1S6HhaCrBgMQKt1ummLrRu7MaCTq8B00tvQdsv00Bc_0000.jpg",
+        "videoStreamId": "mux:BjM1S6HhaCrBgMQKt1ummLrRu7MaCTq8B00tvQdsv00Bc"
+      },
+      "police": "MPLS PD 2",
+      "shareImageLive": "https://storage.googleapis.com/citizen-stream-capture/mux:BjM1S6HhaCrBgMQKt1ummLrRu7MaCTq8B00tvQdsv00Bc_0000.jpg",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-My0J5qyWD9omHERcTgP.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-My0JpLD_BGvN2mfwQy3.png",
       "updates": {
-        "-My0J5Z7-3ZZRiejeVvV": {
-          "text": "Incident reported at S 12th Ave & S Washington Ave.",
-          "ts": 1647142004999,
+        "-My0JpBVxokzIPvQedcr": {
+          "text": "Incident reported at 316 12th Ave SE.",
+          "ts": 1647142195999,
           "type": "ROOT",
-          "displayLocation": "S 12th Ave & S Washington Ave"
+          "displayLocation": "316 12th Ave SE"
         },
-        "-My0J5rDbDmTODfVBt84": {
-          "text": "Police are responding to a report of a person who may be in need of assistance.",
-          "ts": 1647142005000,
+        "-My0JpLVm9eSW3NpjABA": {
+          "text": "Citizen user video shows police responding to an unspecified incident.",
+          "ts": 1647142196000,
           "type": "TEXT",
-          "displayLocation": "S 12th Ave & S Washington Ave"
+          "displayLocation": "316 12th Ave SE"
         }
       },
       "nearbyThreshold": 400,
@@ -48,12 +65,12 @@
       "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
       "facepile": null,
       "severity": "yellow",
-      "source": "911",
+      "source": "community",
       "chatBlocked": false,
       "closed": false,
       "modules": [
         {
-          "id": "f95a564c-6b37-4370-95f4-d7771ea568be",
+          "id": "4fbc0e52-4df9-4ae9-bd49-cb7f521d9694",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -63,7 +80,7 @@
           }
         },
         {
-          "id": "16d7b573-512e-4f72-b374-2dfc19eb6e55",
+          "id": "841edaec-21b4-4cd8-bb89-f4437647430e",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -79,6 +96,176 @@
       "displayStyle": "tray",
       "categories": [
         "Police Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "800 22nd Ave S, Minneapolis, Minnesota, 55454",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1647142861000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1647141661000,
+      "hasVod": false,
+      "key": "-My0HmvoUjWCz5r1K2YZ",
+      "level": 0,
+      "location": "800 22nd Ave S",
+      "latitude": 44.96588464654054,
+      "longitude": -93.24098354546871,
+      "neighborhood": "Cedar Riverside, Minneapolis",
+      "raw": "Hit-and-Run Collision at 800 22nd Ave S, Minneapolis, Minnesota, 55454",
+      "ll": [
+        44.96588464654054,
+        -93.24098354546871
+      ],
+      "rawLocation": "800 22nd Ave S, Minneapolis, Minnesota, 55454",
+      "title": "Hit-and-Run Collision",
+      "transcriber": "26fed5b6fea6a2f08b4a",
+      "ts": 1647141662000,
+      "police": "MPLS PD 1",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-My0HmvoUjWCz5r1K2YZ.png",
+      "updates": {
+        "-My0Hm_7QMgRM-HTnJoa": {
+          "text": "Incident reported at 800 22nd Ave S.",
+          "ts": 1647141660999,
+          "type": "ROOT",
+          "displayLocation": "800 22nd Ave S"
+        },
+        "-My0Hmw4ZwJcZK8Rxdhz": {
+          "text": "Police have received an unconfirmed report of a hit-and-run vehicle collision. No injuries have been reported.",
+          "ts": 1647141661000,
+          "type": "TEXT",
+          "displayLocation": "800 22nd Ave S"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "6cb09d36-5d15-498e-9aa7-a77325b05ddd",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "2297ec2f-59c7-40b9-abf0-5a75d25ee788",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "magicMomentsTag": null,
+      "displayStyle": "tray",
+      "categories": [
+        "Traffic Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "4330 Oakland Ave S, Minneapolis, Minnesota, 55407",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1647142258000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1647141058000,
+      "hasVod": false,
+      "key": "-My0FUi52D4aX-DSYaaL",
+      "level": 0,
+      "location": "4330 Oakland Ave S",
+      "latitude": 44.92457135408135,
+      "longitude": -93.26640041042347,
+      "neighborhood": "Regina, Minneapolis",
+      "raw": "Vehicle Stolen at 4330 Oakland Ave S, Minneapolis, Minnesota, 55407",
+      "ll": [
+        44.92457135408135,
+        -93.26640041042347
+      ],
+      "rawLocation": "4330 Oakland Ave S, Minneapolis, Minnesota, 55407",
+      "title": "Vehicle Stolen",
+      "transcriber": "26fed5b6fea6a2f08b4a",
+      "ts": 1647141059000,
+      "police": "MPLS PD 3",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-My0FUi52D4aX-DSYaaL.png",
+      "updates": {
+        "-My0FUMFMts57z0bIkjN": {
+          "text": "Incident reported at 4330 Oakland Ave S.",
+          "ts": 1647141057999,
+          "type": "ROOT",
+          "displayLocation": "4330 Oakland Ave S"
+        },
+        "-My0FUiL5HQS5breKvQH": {
+          "text": "Police have received an unconfirmed report of a vehicle stolen.",
+          "ts": 1647141058000,
+          "type": "TEXT",
+          "displayLocation": "4330 Oakland Ave S"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "eb76b2aa-16ea-4baa-9869-048016a89e6d",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "2717517a-4118-496a-8aab-5cf072d59d87",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "magicMomentsTag": null,
+      "displayStyle": "tray",
+      "categories": [
+        "Robbery / Theft "
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -455,44 +642,50 @@
       }
     },
     {
-      "address": "Snelling Ave S & Hartford Ave, Saint Paul, Minnesota, 55116",
+      "address": "180 Kellogg Blvd E, Saint Paul, Minnesota, 55101",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1647136885000
+        "deadline": 1647137235000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1647135685000,
+      "cs": 1647135928000,
       "hasVod": false,
-      "key": "-My-w-5fjgmr35vWl8V3",
+      "key": "-My-wvUOe-zQNm2JSBlY",
       "level": 0,
-      "location": "Snelling Ave S & Hartford Ave",
-      "latitude": 44.923360047360575,
-      "longitude": -93.16702990474506,
+      "location": "180 Kellogg Blvd E",
+      "latitude": 44.946364012987516,
+      "longitude": -93.08670897646188,
       "neighborhood": "Saint Paul",
-      "raw": "Hit-and-Run Collision at Snelling Ave S & Hartford Ave, Saint Paul, Minnesota, 55116",
+      "raw": "Smoke in Apartment at 180 Kellogg Blvd E, Saint Paul, Minnesota, 55101",
       "ll": [
-        44.923360047360575,
-        -93.16702990474506
+        44.946364012987516,
+        -93.08670897646188
       ],
-      "rawLocation": "Snelling Ave S & Hartford Ave, Saint Paul, Minnesota, 55116",
-      "title": "Hit-and-Run Collision",
+      "rawLocation": "180 Kellogg Blvd E, Saint Paul, Minnesota, 55101",
+      "title": "Smoke in Apartment",
       "transcriber": "6ea5e7252dc72fdb7d65",
-      "ts": 1647135687000,
-      "police": "SPPD Western",
+      "ts": 1647136036000,
+      "police": "SPPD Central",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-My-w-5fjgmr35vWl8V3.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-My-wvUOe-zQNm2JSBlY.png",
       "updates": {
-        "-My-vza7OhNR9LdsULaB": {
-          "text": "Incident reported at Snelling Ave S & Hartford Ave.",
-          "ts": 1647135684999,
+        "-My-wuv-DYaTZ9y4SPlD": {
+          "text": "Incident reported at 180 Kellogg Blvd E.",
+          "ts": 1647135927999,
           "type": "ROOT",
-          "displayLocation": "Snelling Ave S & Hartford Ave"
+          "displayLocation": "180 Kellogg Blvd E"
         },
-        "-My-w-5upyd1yQcoCDS_": {
-          "text": "Police are responding to an unconfirmed report of a hit-and-run collision.",
-          "ts": 1647135685000,
+        "-My-wvUiQW-qeFn3Ot50": {
+          "text": "Firefighters are responding to an unconfirmed report of smoke in an apartment.",
+          "ts": 1647135928000,
           "type": "TEXT",
-          "displayLocation": "Snelling Ave S & Hartford Ave"
+          "displayLocation": "180 Kellogg Blvd E"
+        },
+        "-My-xKTGARLpYlEFaWeq": {
+          "text": "Firefighters have now arrived on the scene. They are investigating the report.",
+          "ts": 1647136035000,
+          "type": "TEXT",
+          "displayLocation": ""
         }
       },
       "nearbyThreshold": 400,
@@ -507,7 +700,7 @@
       "closed": false,
       "modules": [
         {
-          "id": "862aed4a-9a18-4486-8379-fdfe457cefa6",
+          "id": "3c658459-d655-491b-ac73-ff7334f839ea",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -517,7 +710,7 @@
           }
         },
         {
-          "id": "e2db1556-2921-44cf-b79d-5e401f00caa3",
+          "id": "d06aff36-3926-404f-bd79-7e6fc08f2ac0",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -532,7 +725,7 @@
       "magicMomentsTag": null,
       "displayStyle": "tray",
       "categories": [
-        "Traffic Related"
+        "Fire"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -882,91 +1075,6 @@
       }
     },
     {
-      "address": "2333 Jackson St NE, Minneapolis, Minnesota, 55418",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1647114776000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1647113576000,
-      "hasVod": false,
-      "key": "-Mxzbd-hyFNRxUNS4bdG",
-      "level": 0,
-      "location": "2333 Jackson St NE",
-      "latitude": 45.01183099346787,
-      "longitude": -93.24878799414671,
-      "neighborhood": "Minneapolis",
-      "raw": "Vehicle Stolen at 2333 Jackson St NE, Minneapolis, Minnesota, 55418",
-      "ll": [
-        45.01183099346787,
-        -93.24878799414671
-      ],
-      "rawLocation": "2333 Jackson St NE, Minneapolis, Minnesota, 55418",
-      "title": "Vehicle Stolen",
-      "transcriber": "701eae7b1473a5ac1e0b",
-      "ts": 1647113572000,
-      "police": "MPLS PD 2",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mxzbd-hyFNRxUNS4bdG.png",
-      "updates": {
-        "-Mxzbd-zIBlFtZFfxYL6": {
-          "text": "Police are responding to a report of a vehicle stolen.",
-          "ts": 1647113576000,
-          "type": "TEXT",
-          "displayLocation": "2333 Jackson St NE"
-        },
-        "-Mxzbdt-Q4gRy-zq2PNc": {
-          "text": "Incident reported at 2333 Jackson St NE.",
-          "ts": 1647113575999,
-          "type": "ROOT",
-          "displayLocation": "2333 Jackson St NE"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "47120771-b6d0-45b4-b278-602d37cd725f",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "65c9f036-a330-4174-a1b1-4a8f879451ec",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "magicMomentsTag": null,
-      "displayStyle": "tray",
-      "categories": [
-        "Robbery / Theft "
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
       "address": "1700 N Plymouth Ave, Minneapolis, Minnesota, 55411",
       "broadcastRules": {
         "distanceMeters": 1609,
@@ -1045,91 +1153,6 @@
       "displayStyle": "tray",
       "categories": [
         "Fire"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "Randolph Ave & Cretin Ave S, Saint Paul, Minnesota, 55105",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1647113585000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1647112385000,
-      "hasVod": false,
-      "key": "-MxzY5PjxyTdhdYstYHQ",
-      "level": 1,
-      "location": "Randolph Ave & Cretin Ave S",
-      "latitude": 44.92704003813074,
-      "longitude": -93.19246990289189,
-      "neighborhood": "Macalester-Groveland, Saint Paul",
-      "raw": "Two-Vehicle Collision With Injuries at Randolph Ave & Cretin Ave S, Saint Paul, Minnesota, 55105",
-      "ll": [
-        44.92704003813074,
-        -93.19246990289189
-      ],
-      "rawLocation": "Randolph Ave & Cretin Ave S, Saint Paul, Minnesota, 55105",
-      "title": "Two-Vehicle Collision With Injuries",
-      "transcriber": "701eae7b1473a5ac1e0b",
-      "ts": 1647112395000,
-      "police": "SPPD Western",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MxzY5PjxyTdhdYstYHQ.png",
-      "updates": {
-        "-MxzY5Pz4V9tXXXjum-x": {
-          "text": "Police are responding to an unconfirmed report of a two-vehicle collision with possible injuries.",
-          "ts": 1647112385000,
-          "type": "TEXT",
-          "displayLocation": "Randolph Ave & Cretin Ave S"
-        },
-        "-MxzY66cPNKNClzw4Y-h": {
-          "text": "Incident reported at Randolph Ave & Cretin Ave S.",
-          "ts": 1647112384999,
-          "type": "ROOT",
-          "displayLocation": "Randolph Ave & Cretin Ave S"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "c47a1d79-dfb8-4c70-a213-223170beabd8",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "7dd7fd75-c0dd-4f03-98f1-f03aa9d9945f",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "magicMomentsTag": null,
-      "displayStyle": "tray",
-      "categories": [
-        "Traffic Related"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -1323,6 +1346,91 @@
       "displayStyle": "tray",
       "categories": [
         "Pursuit / Search"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "W 29th St & Bryant Ave S, Minneapolis, Minnesota, 55408",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1647073473000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1647072273000,
+      "hasVod": false,
+      "key": "-Mxx9524hQ7muuasS6TF",
+      "level": 1,
+      "location": "W 29th St & Bryant Ave S",
+      "latitude": 44.95003004788887,
+      "longitude": -93.29062995188433,
+      "neighborhood": "Lowry Hill East, Minneapolis",
+      "raw": "Report of Six Shots Fired at W 29th St & Bryant Ave S, Minneapolis, Minnesota, 55408",
+      "ll": [
+        44.95003004788887,
+        -93.29062995188433
+      ],
+      "rawLocation": "W 29th St & Bryant Ave S, Minneapolis, Minnesota, 55408",
+      "title": "Report of Six Shots Fired",
+      "transcriber": "a6acf77f7e721f7b5dbc",
+      "ts": 1647072272000,
+      "police": "MPLS PD 5",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-Mxx9524hQ7muuasS6TF.png",
+      "updates": {
+        "-Mxx952Ml8Pt_SiiFb-T": {
+          "text": "Police have received an unconfirmed report of six shots fired.",
+          "ts": 1647072273000,
+          "type": "TEXT",
+          "displayLocation": "W 29th St & Bryant Ave S"
+        },
+        "-Mxx958coG6bKxvdbOl-": {
+          "text": "Incident reported at W 29th St & Bryant Ave S.",
+          "ts": 1647072272999,
+          "type": "ROOT",
+          "displayLocation": "W 29th St & Bryant Ave S"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "6589349d-ed58-4b6f-a33c-1f946d343426",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "02fa4247-ac79-4265-9aed-396b27a71824",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "magicMomentsTag": null,
+      "displayStyle": "tray",
+      "categories": [
+        "Gun Related"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -4996,91 +5104,6 @@
       "displayStyle": "tray",
       "categories": [
         "Helicopter"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "670 Stryker Ave, Saint Paul, Minnesota, 55107",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1646933220000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1646931938000,
-      "hasVod": false,
-      "key": "-MxomkttfyX-YrQMhX7G",
-      "level": 1,
-      "location": "670 Stryker Ave",
-      "latitude": 44.925726007169914,
-      "longitude": -93.08772503076482,
-      "neighborhood": "Saint Paul",
-      "raw": "Report of 20 Shots Fired at 670 Stryker Ave, Saint Paul, Minnesota, 55107",
-      "ll": [
-        44.925726007169914,
-        -93.08772503076482
-      ],
-      "rawLocation": "670 Stryker Ave, Saint Paul, Minnesota, 55107",
-      "title": "Report of 20 Shots Fired",
-      "transcriber": "79c2878954850cdb4afa",
-      "ts": 1646932020000,
-      "police": "SPPD Central",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-MxomkttfyX-YrQMhX7G.png",
-      "updates": {
-        "-MxomkfFj1ziHTsuvbk1": {
-          "text": "Incident reported at 670 Stryker Ave.",
-          "ts": 1646931937999,
-          "type": "ROOT",
-          "displayLocation": "670 Stryker Ave"
-        },
-        "-MxomkuCi27MfyCqvdjz": {
-          "text": "Police are responding to an unconfirmed report of 20 shots fired in the area. The suspects are said to be four men and two women who are on the roof.",
-          "ts": 1646931938000,
-          "type": "TEXT",
-          "displayLocation": "670 Stryker Ave"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "ea2ba596-5703-4787-b301-b843e3c264d3",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "91865c8c-86f1-4b4c-8014-a54423923c47",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "magicMomentsTag": null,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
