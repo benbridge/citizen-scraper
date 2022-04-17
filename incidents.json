@@ -1,44 +1,67 @@
 {
   "results": [
     {
-      "address": "3353 40th Ave S, Minneapolis, Minnesota, 55406",
+      "address": "214 4th St E, Saint Paul, Minnesota, 55101",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1650203070000
+        "deadline": 1650224132000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1650201870000,
-      "hasVod": false,
-      "key": "-N-rgZ5uBdsnfOt0HhnL",
+      "cs": 1650222111000,
+      "hasVod": true,
+      "key": "-N-stlPrv2tnra9z9M2N",
       "level": 1,
-      "location": "3353 40th Ave S",
-      "latitude": 44.941735987058706,
-      "longitude": -93.21500003953231,
-      "neighborhood": "Minneapolis",
-      "raw": "Report of Person Armed With Gun at 3353 40th Ave S, Minneapolis, Minnesota, 55406",
+      "liveStreamers": {
+        "f377364d90aa3783bccb": {
+          "cs": 1650222583000,
+          "ts": 1650222844000,
+          "username": "landofkush",
+          "avatarThumbURL": "https://storage.googleapis.com/citizen-profile-pictures/default-orange-dark-thumb.png",
+          "videoStreamId": "mux:OWev6Y9pFF01ICW02yhyLkrfO201y5TACATvzdMf1CAZOI",
+          "hlsDone": true,
+          "isOnAir": false
+        }
+      },
+      "location": "214 4th St E",
+      "latitude": 44.94781898565023,
+      "longitude": -93.08642600341068,
+      "neighborhood": "Saint Paul",
+      "raw": "Report of Person Stabbed at 214 4th St E, Saint Paul, Minnesota, 55101",
       "ll": [
-        44.941735987058706,
-        -93.21500003953231
+        44.94781898565023,
+        -93.08642600341068
       ],
-      "rawLocation": "3353 40th Ave S, Minneapolis, Minnesota, 55406",
-      "title": "Report of Person Armed With Gun",
-      "transcriber": "79c2878954850cdb4afa",
-      "ts": 1650201870000,
-      "police": "MPLS PD 3",
+      "rawLocation": "214 4th St E, Saint Paul, Minnesota, 55101",
+      "title": "Report of Person Stabbed",
+      "transcriber": "743b8e59147b0062beed",
+      "ts": 1650222932000,
+      "videoPreview": "https://streaming-cdn.sp0n.io/mediacache/_definst_/mp4:amazons3/media.sp0n.com/videos/mux:OWev6Y9pFF01ICW02yhyLkrfO201y5TACATvzdMf1CAZOI.mp4/playlist.m3u8?wowzaplayduration=10000&wowzaplaystart=0",
+      "preferredStream": {
+        "image": "https://storage.googleapis.com/citizen-stream-capture/mux:OWev6Y9pFF01ICW02yhyLkrfO201y5TACATvzdMf1CAZOI_0001.jpg",
+        "videoStreamId": "mux:OWev6Y9pFF01ICW02yhyLkrfO201y5TACATvzdMf1CAZOI"
+      },
+      "police": "SPPD Central",
+      "shareImageLive": "https://storage.googleapis.com/citizen-stream-capture/mux:OWev6Y9pFF01ICW02yhyLkrfO201y5TACATvzdMf1CAZOI_0001.jpg",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-rgZ5uBdsnfOt0HhnL.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-stlPrv2tnra9z9M2N.png",
       "updates": {
-        "-N-rgYuk4xGKCHko-SDL": {
-          "text": "Incident reported at 3353 40th Ave S.",
-          "ts": 1650201869999,
-          "type": "ROOT",
-          "displayLocation": "3353 40th Ave S"
-        },
-        "-N-rgZ6GGpw2CSdsDa5g": {
-          "text": "Police are responding to an unconfirmed report of a person armed with a gun.",
-          "ts": 1650201870000,
+        "-N-stlQ5DPFMRXYSFU75": {
+          "text": "Firefighters have received an unconfirmed report of a person stabbed.",
+          "ts": 1650222111000,
           "type": "TEXT",
-          "displayLocation": "3353 40th Ave S"
+          "displayLocation": "214 4th St E"
+        },
+        "-N-stlZNWNjbqfs82b-4": {
+          "text": "Incident reported at 214 4th St E.",
+          "ts": 1650222110999,
+          "type": "ROOT",
+          "displayLocation": "214 4th St E"
+        },
+        "-N-swu-Z01zUV1kg-uy0": {
+          "text": "A Citizen user shows a video of emergency personnel transporting an injured person in a reported stabbing incident.",
+          "ts": 1650222932000,
+          "type": "TEXT",
+          "displayLocation": ""
         }
       },
       "nearbyThreshold": 400,
@@ -53,7 +76,7 @@
       "closed": false,
       "modules": [
         {
-          "id": "6e3444c5-0946-487f-8ac3-ac011b04f83a",
+          "id": "a070fdaf-4caa-498e-85e0-e7ad70eeed7f",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -63,7 +86,262 @@
           }
         },
         {
-          "id": "a3dc28f2-6a1f-42cf-9c24-25ee1f132c3f",
+          "id": "3d66202e-0aa5-4ea9-93de-ca962af76612",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "magicMomentsTag": null,
+      "displayStyle": "tray",
+      "categories": [
+        "Weapon"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "Arlington Ave W & Maywood St, Saint Paul, Minnesota, 55117",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1650222723000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1650221523000,
+      "hasVod": false,
+      "key": "-N-srX1Tx-QnfcQjH4KJ",
+      "level": 1,
+      "location": "Arlington Ave W & Maywood St",
+      "latitude": 44.984590059604784,
+      "longitude": -93.12748995289556,
+      "neighborhood": "Como, Saint Paul",
+      "raw": "Report of Armed Assault at Arlington Ave W & Maywood St, Saint Paul, Minnesota, 55117",
+      "ll": [
+        44.984590059604784,
+        -93.12748995289556
+      ],
+      "rawLocation": "Arlington Ave W & Maywood St, Saint Paul, Minnesota, 55117",
+      "title": "Report of Armed Assault",
+      "transcriber": "743b8e59147b0062beed",
+      "ts": 1650221523000,
+      "police": "SPPD Western",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-srX1Tx-QnfcQjH4KJ.png",
+      "updates": {
+        "-N-srX-sw_LME_Olfv_V": {
+          "text": "Incident reported at Arlington Ave W & Maywood St.",
+          "ts": 1650221522999,
+          "type": "ROOT",
+          "displayLocation": "Arlington Ave W & Maywood St"
+        },
+        "-N-srX1jXsLIP8rHHYiW": {
+          "text": "Police have received an unconfirmed report of a man armed with a knife who assaulted a woman.",
+          "ts": 1650221523000,
+          "type": "TEXT",
+          "displayLocation": "Arlington Ave W & Maywood St"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "412115a6-c0cb-41d5-ad13-05fec450e21a",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "04548117-97e1-4de8-a458-6443e3665264",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "magicMomentsTag": null,
+      "displayStyle": "tray",
+      "categories": [
+        "Weapon"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "5754 33rd Ave S, Minneapolis, Minnesota, 55417",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1650222487000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1650221287000,
+      "hasVod": false,
+      "key": "-N-sqdl-dlSonYBn9RTO",
+      "level": 0,
+      "location": "5754 33rd Ave S",
+      "latitude": 44.89856000752121,
+      "longitude": -93.22451903169254,
+      "neighborhood": "Minneapolis",
+      "raw": "Vacant Apartment Burglarized at 5754 33rd Ave S, Minneapolis, Minnesota, 55417",
+      "ll": [
+        44.89856000752121,
+        -93.22451903169254
+      ],
+      "rawLocation": "5754 33rd Ave S, Minneapolis, Minnesota, 55417",
+      "title": "Vacant Apartment Burglarized",
+      "transcriber": "743b8e59147b0062beed",
+      "ts": 1650221292000,
+      "police": "MPLS PD 3",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-sqdl-dlSonYBn9RTO.png",
+      "updates": {
+        "-N-sqcONRt8Imf80RB6p": {
+          "text": "Incident reported at 5754 33rd Ave S.",
+          "ts": 1650221286999,
+          "type": "ROOT",
+          "displayLocation": "5754 33rd Ave S"
+        },
+        "-N-sqdlGpd_shjsweTX9": {
+          "text": "Police have received an unconfirmed report of a vacant apartment burglarized.",
+          "ts": 1650221287000,
+          "type": "TEXT",
+          "displayLocation": "5754 33rd Ave S"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "527b5e1d-1100-475f-a2f4-8a349b7cefdb",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "22c00744-76d5-425a-9c70-cb772a57b128",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "magicMomentsTag": null,
+      "displayStyle": "tray",
+      "categories": [
+        "Break In"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "1st St S & Marquette Ave, Minneapolis, Minnesota, 55401",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1650215587000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1650214387000,
+      "hasVod": false,
+      "key": "-N-sRIiOXZqV3TkWObXJ",
+      "level": 1,
+      "location": "1st St S & Marquette Ave",
+      "latitude": 44.98314003226494,
+      "longitude": -93.26513991377556,
+      "neighborhood": "Downtown West, Minneapolis",
+      "raw": "Report of Five Shots Fired at 1st St S & Marquette Ave, Minneapolis, Minnesota, 55401",
+      "ll": [
+        44.98314003226494,
+        -93.26513991377556
+      ],
+      "rawLocation": "1st St S & Marquette Ave, Minneapolis, Minnesota, 55401",
+      "title": "Report of Five Shots Fired",
+      "transcriber": "743b8e59147b0062beed",
+      "ts": 1650214386000,
+      "police": "MPLS PD 1",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-sRIiOXZqV3TkWObXJ.png",
+      "updates": {
+        "-N-sRIid6sK2GOad6BG_": {
+          "text": "Police have received an unconfirmed report of five shots fired.",
+          "ts": 1650214387000,
+          "type": "TEXT",
+          "displayLocation": "1st St S & Marquette Ave"
+        },
+        "-N-sRIosXfCWYUd_rqtW": {
+          "text": "Incident reported at 1st St S & Marquette Ave.",
+          "ts": 1650214386999,
+          "type": "ROOT",
+          "displayLocation": "1st St S & Marquette Ave"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "17d640e7-e9f3-4194-b05a-33114f5cd4e7",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "8cbcc42d-6baf-468a-81ff-d4ba11aae0ee",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -86,44 +364,44 @@
       }
     },
     {
-      "address": "12th Ave N & N Humboldt Ave, Minneapolis, Minnesota, 55411",
+      "address": "4940 Logan Ave N, Minneapolis, Minnesota, 55430",
       "broadcastRules": {
         "distanceMeters": 805,
-        "deadline": 1650201167000
+        "deadline": 1650213973000
       },
       "cityCode": "us-mn-msp",
-      "cs": 1650199967000,
+      "cs": 1650212597000,
       "hasVod": false,
-      "key": "-N-r_ITb44WhsI_3-ebl",
+      "key": "-N-sKTuHLpfOI8sUW2Yr",
       "level": 0,
-      "location": "12th Ave N & N Humboldt Ave",
-      "latitude": 44.99083005124277,
-      "longitude": -93.29818992563439,
-      "neighborhood": "Near North, Minneapolis",
-      "raw": "Police Activity at 12th Ave N & N Humboldt Ave, Minneapolis, Minnesota, 55411",
+      "location": "4940 Logan Ave N",
+      "latitude": 45.045085020849996,
+      "longitude": -93.30387000614026,
+      "neighborhood": "Minneapolis",
+      "raw": "Attempted House Burglary at 4940 Logan Ave N, Minneapolis, Minnesota, 55430",
       "ll": [
-        44.99083005124277,
-        -93.29818992563439
+        45.045085020849996,
+        -93.30387000614026
       ],
-      "rawLocation": "12th Ave N & N Humboldt Ave, Minneapolis, Minnesota, 55411",
-      "title": "Police Activity",
+      "rawLocation": "4940 Logan Ave N, Minneapolis, Minnesota, 55430",
+      "title": "Attempted House Burglary",
       "transcriber": "79c2878954850cdb4afa",
-      "ts": 1650199967000,
+      "ts": 1650212772000,
       "police": "MPLS PD 4",
       "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-r_ITb44WhsI_3-ebl.png",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-sKTuHLpfOI8sUW2Yr.png",
       "updates": {
-        "-N-r_IJN7KWlOwwH3nki": {
-          "text": "Incident reported at 12th Ave N & N Humboldt Ave.",
-          "ts": 1650199966999,
+        "-N-sKTo7Dng2V7rENstw": {
+          "text": "Incident reported at 4940 Logan Ave N.",
+          "ts": 1650212596999,
           "type": "ROOT",
-          "displayLocation": "12th Ave N & N Humboldt Ave"
+          "displayLocation": "4940 Logan Ave N"
         },
-        "-N-r_ITrREGNCa_Y8__7": {
-          "text": "Police are responding to a report of a person who may be in need of assistance.",
-          "ts": 1650199967000,
+        "-N-sKTu_iSfv2bUz0OfK": {
+          "text": "Police have received an unconfirmed report of an attempted house burglary. The suspect allegedly tried to burglarize a house with a rock.",
+          "ts": 1650212597000,
           "type": "TEXT",
-          "displayLocation": "12th Ave N & N Humboldt Ave"
+          "displayLocation": "4940 Logan Ave N"
         }
       },
       "nearbyThreshold": 400,
@@ -138,7 +416,7 @@
       "closed": false,
       "modules": [
         {
-          "id": "1dc73382-0734-4b78-916b-ba4c4ef1b0c8",
+          "id": "d2000dfd-7f6c-4345-b8db-1f8224f872e3",
           "type": "nib",
           "title": "Citizen Summary",
           "rank": 0,
@@ -148,7 +426,7 @@
           }
         },
         {
-          "id": "a74e9458-1e8e-4b17-a9c1-4cc764e901b3",
+          "id": "78f6a976-2dbe-4ac2-ac4f-70a3f425dbb7",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
@@ -163,7 +441,7 @@
       "magicMomentsTag": null,
       "displayStyle": "tray",
       "categories": [
-        "Police Related"
+        "Break In"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -395,261 +673,6 @@
       }
     },
     {
-      "address": "3415 26th Ave S, Minneapolis, Minnesota, 55406",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1650197488000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1650196288000,
-      "hasVod": false,
-      "key": "-N-rMGFvwTxJ2Yr2tPfY",
-      "level": 1,
-      "location": "3415 26th Ave S",
-      "latitude": 44.940292075896,
-      "longitude": -93.23456943600812,
-      "neighborhood": "Corcoran, Minneapolis",
-      "raw": "Women Carjacked at 3415 26th Ave S, Minneapolis, Minnesota, 55406",
-      "ll": [
-        44.940292075896,
-        -93.23456943600812
-      ],
-      "rawLocation": "3415 26th Ave S, Minneapolis, Minnesota, 55406",
-      "title": "Women Carjacked",
-      "transcriber": "79c2878954850cdb4afa",
-      "ts": 1650196369000,
-      "police": "MPLS PD 3",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-rMGFvwTxJ2Yr2tPfY.png",
-      "updates": {
-        "-N-rMG7-2l9HVtspQNM0": {
-          "text": "Incident reported at 3415 26th Ave S.",
-          "ts": 1650196287999,
-          "type": "ROOT",
-          "displayLocation": "3415 26th Ave S"
-        },
-        "-N-rMGGDCJrFdLo_HN-S": {
-          "text": "Police have received an unconfirmed report of women who were carjacked. A man is reportedly attempting to pull two women out of the vehicle.",
-          "ts": 1650196288000,
-          "type": "TEXT",
-          "displayLocation": "3415 26th Ave S"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "2f11e035-61c7-48cf-8ff1-8ed5fef3f4ab",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "0bd79752-a8c7-49a0-8bcf-88435ec99a07",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "magicMomentsTag": null,
-      "displayStyle": "tray",
-      "categories": [
-        "Robbery / Theft "
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "4210 Nicollet Ave, Minneapolis, Minnesota, 55409",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1650195414000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1650194214000,
-      "hasVod": false,
-      "key": "-N-rELyIPxvDvCWXTJNh",
-      "level": 1,
-      "location": "4210 Nicollet Ave",
-      "latitude": 44.92641600543931,
-      "longitude": -93.27827896609823,
-      "neighborhood": "Minneapolis",
-      "raw": "Report of Man Armed With Gun at 4210 Nicollet Ave, Minneapolis, Minnesota, 55409",
-      "ll": [
-        44.92641600543931,
-        -93.27827896609823
-      ],
-      "rawLocation": "4210 Nicollet Ave, Minneapolis, Minnesota, 55409",
-      "title": "Report of Man Armed With Gun",
-      "transcriber": "79c2878954850cdb4afa",
-      "ts": 1650194214000,
-      "police": "MPLS PD 5",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-rELyIPxvDvCWXTJNh.png",
-      "updates": {
-        "-N-rELlkYotbw48sDOoP": {
-          "text": "Incident reported at 4210 Nicollet Ave.",
-          "ts": 1650194213999,
-          "type": "ROOT",
-          "displayLocation": "4210 Nicollet Ave"
-        },
-        "-N-rELyY7b6NS8ahZZLX": {
-          "text": "Police are responding to an unconfirmed report of a man armed with a gun.",
-          "ts": 1650194214000,
-          "type": "TEXT",
-          "displayLocation": "4210 Nicollet Ave"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "baa46c73-3296-474e-9b2a-887c38487a02",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "75e3e818-36df-4750-9eca-e6998b409c36",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "magicMomentsTag": null,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "Golden Valley Rd & Vincent Ave N, Minneapolis, Minnesota, 55411",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1650187065000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1650185805000,
-      "hasVod": false,
-      "key": "-N-qjGwuFWueQ_0K9mnH",
-      "level": 1,
-      "location": "Golden Valley Rd & Vincent Ave N",
-      "latitude": 44.99883003300002,
-      "longitude": -93.31589988121571,
-      "neighborhood": "Willard-Hay, Minneapolis",
-      "raw": "Strong-Arm Robbery at Golden Valley Rd & Vincent Ave N, Minneapolis, Minnesota, 55411",
-      "ll": [
-        44.99883003300002,
-        -93.31589988121571
-      ],
-      "rawLocation": "Golden Valley Rd & Vincent Ave N, Minneapolis, Minnesota, 55411",
-      "title": "Strong-Arm Robbery",
-      "transcriber": "82b8abefe9b58bfb00b5",
-      "ts": 1650185865000,
-      "police": "MPLS PD 4",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-qjGwuFWueQ_0K9mnH.png",
-      "updates": {
-        "-N-qjGn7zrtRnmPOByfg": {
-          "text": "Incident reported at Golden Valley Rd & Vincent Ave N.",
-          "ts": 1650185804999,
-          "type": "ROOT",
-          "displayLocation": "Golden Valley Rd & Vincent Ave N"
-        },
-        "-N-qjGx9FT0bRqZb8JCB": {
-          "text": "Police have received an unconfirmed 911 report of a strong-arm robbery. The suspect reportedly took a phone.",
-          "ts": 1650185805000,
-          "type": "TEXT",
-          "displayLocation": "Golden Valley Rd & Vincent Ave N"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "b1e11d16-8d9f-4bd9-99e6-5f2a9778645c",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "5f94b39c-30cd-45eb-8947-c52f76dd887b",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "magicMomentsTag": null,
-      "displayStyle": "tray",
-      "categories": [
-        "Robbery / Theft "
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
       "address": "Cook Ave W & Sylvan St, Saint Paul, Minnesota, 55117",
       "broadcastRules": {
         "distanceMeters": 1609,
@@ -740,6 +763,91 @@
       "displayStyle": "tray",
       "categories": [
         "Gun Related"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "5th St E & Cedar St, Saint Paul, Minnesota, 55101",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1650176051000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1650174851000,
+      "hasVod": false,
+      "key": "-N-q4UaePBddR4G-P-w6",
+      "level": 1,
+      "location": "5th St E & Cedar St",
+      "latitude": 44.946290042692,
+      "longitude": -93.09321995502954,
+      "neighborhood": "Downtown, Saint Paul",
+      "raw": "Person Assaulted at 5th St E & Cedar St, Saint Paul, Minnesota, 55101",
+      "ll": [
+        44.946290042692,
+        -93.09321995502954
+      ],
+      "rawLocation": "5th St E & Cedar St, Saint Paul, Minnesota, 55101",
+      "title": "Person Assaulted",
+      "transcriber": "82b8abefe9b58bfb00b5",
+      "ts": 1650174851000,
+      "police": "SPPD Central",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-q4UaePBddR4G-P-w6.png",
+      "updates": {
+        "-N-q4UTsfn1UYYWTx-x3": {
+          "text": "Incident reported at 5th St E & Cedar St.",
+          "ts": 1650174850999,
+          "type": "ROOT",
+          "displayLocation": "5th St E & Cedar St"
+        },
+        "-N-q4UazvUII__jNJySZ": {
+          "text": "Firefighters have received an unconfirmed report of a person who has been assaulted.",
+          "ts": 1650174851000,
+          "type": "TEXT",
+          "displayLocation": "5th St E & Cedar St"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "9f4542ab-3762-48a6-9ec1-9b88860c47e4",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "64326e15-6444-48d7-8f68-73e8d196d84a",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "magicMomentsTag": null,
+      "displayStyle": "tray",
+      "categories": [
+        "Assault / Fight"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -1377,6 +1485,91 @@
       "displayStyle": "tray",
       "categories": [
         "Assault / Fight"
+      ],
+      "incidentSettings": {
+        "displayStyle": "tray",
+        "mapVisibility": "default"
+      }
+    },
+    {
+      "address": "3899 Effress Rd, Saint Paul, Minnesota, 55110",
+      "broadcastRules": {
+        "distanceMeters": 805,
+        "deadline": 1650170084000
+      },
+      "cityCode": "us-mn-msp",
+      "cs": 1650168884000,
+      "hasVod": false,
+      "key": "-N-pij5n5tyaLKA9nR3-",
+      "level": 1,
+      "location": "3899 Effress Rd",
+      "latitude": 45.05932600007361,
+      "longitude": -92.98635597014164,
+      "neighborhood": "Saint Paul",
+      "raw": "Report of Person Stabbed at 3899 Effress Rd, Saint Paul, Minnesota, 55110",
+      "ll": [
+        45.05932600007361,
+        -92.98635597014164
+      ],
+      "rawLocation": "3899 Effress Rd, Saint Paul, Minnesota, 55110",
+      "title": "Report of Person Stabbed",
+      "transcriber": "26fed5b6fea6a2f08b4a",
+      "ts": 1650168885000,
+      "police": "",
+      "shareImageText": "",
+      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-pij5n5tyaLKA9nR3-.png",
+      "updates": {
+        "-N-piigVpc9oBxy8DSwj": {
+          "text": "Incident reported at 3899 Effress Rd.",
+          "ts": 1650168883999,
+          "type": "ROOT",
+          "displayLocation": "3899 Effress Rd"
+        },
+        "-N-pij64kCHB_ewrBN-0": {
+          "text": "Firefighters are responding to an unconfirmed report of a person stabbed.",
+          "ts": 1650168884000,
+          "type": "TEXT",
+          "displayLocation": "3899 Effress Rd"
+        }
+      },
+      "nearbyThreshold": 400,
+      "recentThreshold": 1800,
+      "recencyThreshold": 7200,
+      "twitterHandle": "@CitizenApp",
+      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
+      "facepile": null,
+      "severity": "yellow",
+      "source": "911",
+      "chatBlocked": false,
+      "closed": false,
+      "modules": [
+        {
+          "id": "3a4292aa-7081-4078-b980-7b137b255fbc",
+          "type": "nib",
+          "title": "Citizen Summary",
+          "rank": 0,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        },
+        {
+          "id": "70cf265e-7606-4f1f-9298-c27632cd07ed",
+          "type": "updates",
+          "title": "Updates",
+          "rank": 1,
+          "template": {
+            "name": "",
+            "gcsUrl": ""
+          }
+        }
+      ],
+      "videoPreviewFeatured": false,
+      "isGoodNews": false,
+      "magicMomentsTag": null,
+      "displayStyle": "tray",
+      "categories": [
+        "Weapon"
       ],
       "incidentSettings": {
         "displayStyle": "tray",
@@ -4703,176 +4896,6 @@
         },
         {
           "id": "b5f21092-e69f-412e-8a58-b7cff2e1a37c",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "magicMomentsTag": null,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "758 Victoria St N, Saint Paul, Minnesota, 55104",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1649983619000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1649982419000,
-      "hasVod": false,
-      "key": "-N-ebQ81w_Zdl13mcxts",
-      "level": 1,
-      "location": "758 Victoria St N",
-      "latitude": 44.96413599465234,
-      "longitude": -93.13628399425014,
-      "neighborhood": "Saint Paul",
-      "raw": "Report of Man Shot in Leg at 758 Victoria St N, Saint Paul, Minnesota, 55104",
-      "ll": [
-        44.96413599465234,
-        -93.13628399425014
-      ],
-      "rawLocation": "758 Victoria St N, Saint Paul, Minnesota, 55104",
-      "title": "Report of Man Shot in Leg",
-      "transcriber": "58fdb82cff9bdbddee55",
-      "ts": 1649982419000,
-      "police": "SPPD Western",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-ebQ81w_Zdl13mcxts.png",
-      "updates": {
-        "-N-ebQ-s4Z_m7N0HXmcG": {
-          "text": "Incident reported at 758 Victoria St N.",
-          "ts": 1649982418999,
-          "type": "ROOT",
-          "displayLocation": "758 Victoria St N"
-        },
-        "-N-ebQ8Lqi1qJlpPjflX": {
-          "text": "Police have received an unconfirmed report of a man shot in the leg at the parking lot.",
-          "ts": 1649982419000,
-          "type": "TEXT",
-          "displayLocation": "758 Victoria St N"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "482d1423-58ec-473a-a78c-88ee7f413123",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "af77aa34-efa5-43c9-b92e-fdde9a55b0c4",
-          "type": "updates",
-          "title": "Updates",
-          "rank": 1,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        }
-      ],
-      "videoPreviewFeatured": false,
-      "isGoodNews": false,
-      "magicMomentsTag": null,
-      "displayStyle": "tray",
-      "categories": [
-        "Gun Related"
-      ],
-      "incidentSettings": {
-        "displayStyle": "tray",
-        "mapVisibility": "default"
-      }
-    },
-    {
-      "address": "38th St W & Bryant Ave S, Minneapolis, Minnesota, 55409",
-      "broadcastRules": {
-        "distanceMeters": 805,
-        "deadline": 1649980044000
-      },
-      "cityCode": "us-mn-msp",
-      "cs": 1649978844000,
-      "hasVod": false,
-      "key": "-N-eOmHE2Z70NenST6hb",
-      "level": 1,
-      "location": "38th St W Bryant Ave S",
-      "latitude": 44.93407002414301,
-      "longitude": -93.29077990413214,
-      "neighborhood": "East Harriet, Minneapolis",
-      "raw": "Report of Shots Fired at 38th St W & Bryant Ave S, Minneapolis, Minnesota, 55409",
-      "ll": [
-        44.93407002414301,
-        -93.29077990413214
-      ],
-      "rawLocation": "38th St W & Bryant Ave S, Minneapolis, Minnesota, 55409",
-      "title": "Report of Shots Fired",
-      "transcriber": "58fdb82cff9bdbddee55",
-      "ts": 1649978844000,
-      "police": "MPLS PD 5",
-      "shareImageText": "",
-      "shareMap": "https://storage.googleapis.com/citizen-notif-attachment/-N-eOmHE2Z70NenST6hb.png",
-      "updates": {
-        "-N-eOmCVKtXpy0zCekLY": {
-          "text": "Incident reported at 38th St W Bryant Ave S.",
-          "ts": 1649978843999,
-          "type": "ROOT",
-          "displayLocation": "38th St W Bryant Ave S"
-        },
-        "-N-eOmHVMRdzuoL5jHnz": {
-          "text": "Police have received an unconfirmed report of shots heard.",
-          "ts": 1649978844000,
-          "type": "TEXT",
-          "displayLocation": "38th St W Bryant Ave S"
-        }
-      },
-      "nearbyThreshold": 400,
-      "recentThreshold": 1800,
-      "recencyThreshold": 7200,
-      "twitterHandle": "@CitizenApp",
-      "placeholderImageURL": "https://storage.googleapis.com/citizen-assets/placeholders/us-mn-msp-2x.png",
-      "facepile": null,
-      "severity": "yellow",
-      "source": "911",
-      "chatBlocked": false,
-      "closed": false,
-      "modules": [
-        {
-          "id": "121c6ac8-d53a-4944-a741-16013c7e047d",
-          "type": "nib",
-          "title": "Citizen Summary",
-          "rank": 0,
-          "template": {
-            "name": "",
-            "gcsUrl": ""
-          }
-        },
-        {
-          "id": "11cb1d39-1bb2-4782-bd96-7f07c68b76aa",
           "type": "updates",
           "title": "Updates",
           "rank": 1,
